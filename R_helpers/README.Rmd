@@ -6,7 +6,6 @@ output:
   github_document: 
     toc: true
     toc_depth: 2
-    md_extensions: -hard_line_breaks
   pdf_document: 
     latex_engine: pdflatex
     keep_tex: true
