@@ -92,6 +92,8 @@ if(length(id_missing) > 0)
             "** ",
             if(e$VERSION[t] != "")
               paste0("[", e$VERSION[t], "]&nbsp;"),
+            if(e$OPEN_SOURCE[t])
+              "<img width=13px src='images/osi_logo.png'/>&nbsp;",
             paste0("<img width=60px src='images/badges_",e$TYPE[t],".svg' />"),
             "&nbsp;",
             paste0("<img width=60px src='images/badges_sta_",e$STATUS[t],".svg' />"),

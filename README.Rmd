@@ -83,4 +83,10 @@ df_list <- .sort_software(df)
 
 `r .render_list(df_list)`
 
+# Legend{-}
+| Badge   | Info    |
+|---------|---------|
+![Open source](images/osi_logo.png){width=13px}| This software is open source |
+
+
 

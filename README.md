@@ -33,7 +33,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Age calculation
 
   - **DRAC**
-    \[1.2\] <img width=60px src='images/badges_web_service.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[1.2\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_web_service.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Dose rate and luminescence age calculator
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <http://www.aber.ac.uk/en/dges/research/quaternary/luminescence-research-laboratory/dose-rate-calculator/>
@@ -46,7 +46,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Chronological modelling
 
   - **ArchaeoChron**
-    \[0.1\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides a list of functions for the Bayesian modeling of
     archaeological chronologies. The Bayesian models are implemented in
     ‘JAGS’ (‘JAGS’ stands for Just Another Gibbs Sampler. It is a
@@ -63,7 +63,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://CRAN.R-project.org/package=ArchaeoChron>
     <hr/>
   - **ArchaeoPhases**
-    \[1.3\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[1.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides a list of functions for the statistical analysis of
     archaeological dates and groups of dates. It is based on the
     post-processing of the Markov Chains whose stationary distribution
@@ -77,7 +77,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://CRAN.R-project.org/package=ArchaeoPhases>
     <hr/>
   - **BayLum**
-    \[0.1.3\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Bayesian analysis of luminescence data and C-14 age estimates.
     Bayesian models are based on the following publications: Combes, B.
     & Philippe, A. (2017) <doi:10.1016/j.quageo.2017.02.003> and Combes
@@ -92,14 +92,14 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://doi.org/10.1016/j.quageo.2018.05.009></small>*
     <hr/>
   - **ChronoModel**
-    \[1.5\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[1.5\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Chronological Modelling of Archaeological Data using Bayesian
     Statistics with an advanced graphical user interface
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://chronomodel.com>
     <hr/>
   - **RChronoModel**
-    \[0.4\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides a list of functions for the statistical analysis and
     the post-processing of the Markov Chains simulated by ChronoModel
     (see <http://www.chronomodel.fr> for more information). ChronoModel
@@ -139,7 +139,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Dose rate modelling
 
   - **DosiVox**
-    \[2018-12-03\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_LIN.svg' />
+    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_LIN.svg' />
     <br />A Geant 4-based software for dosimetry simulations relevant to
     luminescence and ESR dating techniques
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -150,7 +150,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     1–10.</small>*
     <hr/>
   - **DosiVox2D**
-    \[2018-12-03\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_LIN.svg' />
+    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_LIN.svg' />
     <br />A Geant 4-based software for dosimetry simulations relevant to
     luminescence and ESR dating techniques; simplified version in
     comparison to DosiVox
@@ -158,7 +158,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144&lang=fr>
     <hr/>
   - **RCarb**
-    \[0.1.2\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.2\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Translation of the ‘MATLAB’ program ‘Carb’ (Nathan and Mauz
     2008 <doi:10.1016/j.radmeas.2007.12.012>; Mauz and Hoffmann 2014)
     for dose rate modelling for carbonate-rich samples in the context of
@@ -170,7 +170,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### ESR data analysis
 
   - **ESR**
-    \[2018-12-06\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2018-12-06\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -191,7 +191,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Gamma-ray spectrometry
 
   - **gammaSpec**
-    \[2017-07-17\] <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2017-07-17\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of functions to analyse gamma spectra
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://github.com/tzerk/gammaSpec>
@@ -208,7 +208,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     recent improvements. Ancient TL 33, 35–42.</small>*
     <hr/>
   - **Luminescence**
-    \[0.8.6\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.8.6\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of various R functions for the purpose of
     Luminescence dating data analysis. This includes, amongst others,
     data import, export, application of age models, curve deconvolution,
@@ -220,7 +220,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     dating analysis. Ancient TL 30, 1–8.</small>*
     <hr/>
   - **numOSL**
-    \[2.6\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2.6\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Package for optimizing regular numeric problems in optically
     stimulated luminescence dating, such as: equivalent dose
     calculation, dose rate determination, growth curve fitting, decay
@@ -248,7 +248,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <br /> *<small> </small>*
     <hr/>
   - **tgcd**
-    \[2.0\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Deconvolving thermoluminescence glow curves according to the
     general-order empirical expression or the semi-analytical expression
     derived from the one trap- one recombination (OTOR) model using a
@@ -266,7 +266,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://doi.org/10.1016/j.softx.2016.06.001></small>*
     <hr/>
   - **TLdating**
-    \[0.1.3\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A series of function to make thermoluminescence dating using
     the MAAD or the SAR protocol. This package completes the R package
     “Luminescence.”
@@ -310,7 +310,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Modelling
 
   - **KMS**
-    \[2018-07-11\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2018-07-11\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -321,7 +321,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://doi.org/10.1016/j.radmeas.2016.01.022></small>*
     <hr/>
   - **RLumModel**
-    \[0.2.3\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.2.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of functions to simulate luminescence signals in
     quartz and Al2O3 based on published models.
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -336,7 +336,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Plotting
 
   - **RLumShiny**
-    \[0.2.1\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of ‘shiny’ applications for the R package
     ‘Luminescence’. These mainly, but not exclusively, include
     applications for plotting chronometric data from e.g. luminescence
@@ -353,7 +353,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Teaching
 
   - **LumReader**
-    \[0.1.0\] <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A series of functions to estimate the detection windows of a
     luminescence reader based on the filters and the photomultiplier
     (PMT) selected. These functions also allow to simulate a
@@ -384,3 +384,9 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     Measurements, 44 (4), 409-410. doi:
     <https://doi.org/10.1016/j.radmeas.2009.05.003></small>*
     <hr/>
+
+# Legend
+
+| Badge                               | Info                         |
+| ----------------------------------- | ---------------------------- |
+| ![Open source](images/osi_logo.png) | This software is open source |

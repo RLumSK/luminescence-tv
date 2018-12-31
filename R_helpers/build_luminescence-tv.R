@@ -9,7 +9,13 @@
 rm(list = ls())
 
 ##RENDER HTML
-rmarkdown::render("README.Rmd", output_format = "html_document", output_dir = "export")
+rmarkdown::render(
+  "README.Rmd",
+  output_format = "html_document",
+  output_dir = "export/",
+  clean = TRUE
+)
 
 ##RENDER MD
 rmarkdown::render("README.Rmd", output_format = "github_document")
+file.copy(from = "README.md", to = "export/README.md", overwrite = TRUE)
