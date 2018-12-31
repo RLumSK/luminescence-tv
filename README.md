@@ -107,6 +107,12 @@ limited to R packages.
 
 ### Data mining
 
+  - **INQUA Dunes Atla**
+    <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_unknown.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Collection of luminescence ages from sand dunes world wide
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <http://www.dri.edu/inquadunesatlas>
+    <hr/>
   - **OCTOPUS**
     <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Open cosmogenic nuclide and luminescence data database
@@ -354,7 +360,7 @@ limited to R packages.
     <https://www.ucl.ac.uk/~ucfbpve/densityplotter/> <br />
     *<small>Vermeesch, P., 2012. On the visualisation of detrital age
     distributions. Chemical Geology, v.312-313, 190-194, doi:
-    10.1016/j.chemgeo.2012.04.021 0</small>*
+    <https://doi.org/10.1016/j.chemgeo.2012.04.021> 0</small>*
     <hr/>
   - **RadialPlotter**
     \[9.4\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -363,5 +369,6 @@ limited to R packages.
     <https://www.ucl.ac.uk/~ucfbpve/radialplotter/> <br />
     *<small>Vermeesch, P., 2009, RadialPlotter: a Java application for
     fission track, luminescence and other radial plots, Radiation
-    Measurements, 44, 4, 409-410</small>*
+    Measurements, 44 (4), 409-410. doi:
+    <https://doi.org/10.1016/j.radmeas.2009.05.003></small>*
     <hr/>
