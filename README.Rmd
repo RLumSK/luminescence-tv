@@ -6,7 +6,7 @@ output:
   github_document: 
     toc: true
     toc_depth: 2
-  pdf_document: 
+  pdf_document:
     latex_engine: pdflatex
     keep_tex: true
     pandoc_args: "--wrap=preserve"

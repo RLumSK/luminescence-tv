@@ -8,9 +8,8 @@
 ##clean workspace
 rm(list = ls())
 
-##RENDER ALL
-rmarkdown::render("R_helpers/README.Rmd", output_format = "all", output_dir = "export")
+##RENDER HTML
+rmarkdown::render("README.Rmd", output_format = "html_document", output_dir = "export")
 
-##update READMED
-#rmarkdown::render("R_helpers/README.Rmd", output_dir = "../")
-
+##RENDER MD
+rmarkdown::render("README.Rmd", output_format = "github_document")

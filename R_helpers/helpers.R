@@ -74,16 +74,16 @@ if(length(id_missing) > 0)
             "** ",
             switch(
               EXPR = e$TYPE[t],
-              "R package" =  "<img height=15px src='images/r_package.svg' /> ",
-              "R scripts" =  "<img height=15px src='images/r_scripts.svg' /> ",
-              "web service" =  "<img height=15px src='images/web_service.svg' /> ",
-              "application" =  "<img height=15px src='images/application.svg' /> "
+              "R package" =  "<img width=50px src='images/r_package.svg' /> ",
+              "R scripts" =  "<img width=50px src='images/r_scripts.svg' /> ",
+              "web service" =  "<img width=48px src='images/web_service.svg' /> ",
+              "application" =  "<img width=48px src='images/application.svg' /> "
             ),
             switch(
               EXPR = e$STATUS[t],
-              active =  "<img height=15px src='images/status_active.svg' /> ",
-              unpublished = "<img height=15px src='images/status_unpublished.svg' /> ",
-              abandoned = "<img height=15px src='images/status_abandoned.svg' /> "
+              active =  "<img width=80px src='images/status_active.svg' /> ",
+              unpublished = "<img width=80px src='images/status_unpublished.svg' /> ",
+              abandoned = "<img width=80px src='images/status_abandoned.svg' /> "
             ),
             "\n <br />",
             e$DESCRIPTION[t],
