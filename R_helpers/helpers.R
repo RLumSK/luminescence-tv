@@ -74,16 +74,16 @@ if(length(id_missing) > 0)
             "** ",
             switch(
               EXPR = e$TYPE[t],
-              "R package" =  "<img height=15px src='../images/r_package.svg' /> ",
-              "R scripts" =  "<img height=15px src='../images/r_scripts.svg' /> ",
-              "web service" =  "<img height=15px src='../images/web_service.svg' /> ",
-              "application" =  "<img height=15px src='../images/application.svg' /> "
+              "R package" =  "<img height=15px src='images/r_package.svg' /> ",
+              "R scripts" =  "<img height=15px src='images/r_scripts.svg' /> ",
+              "web service" =  "<img height=15px src='images/web_service.svg' /> ",
+              "application" =  "<img height=15px src='images/application.svg' /> "
             ),
             switch(
               EXPR = e$STATUS[t],
-              active =  "<img height=15px src='../images/status_active.svg' /> ",
-              unpublished = "<img height=15px src='../images/status_unpublished.svg' /> ",
-              abandoned = "<img height=15px src='../images/status_abandoned.svg' /> "
+              active =  "<img height=15px src='images/status_active.svg' /> ",
+              unpublished = "<img height=15px src='images/status_unpublished.svg' /> ",
+              abandoned = "<img height=15px src='images/status_abandoned.svg' /> "
             ),
             "\n <br />",
             e$DESCRIPTION[t],
@@ -93,9 +93,9 @@ if(length(id_missing) > 0)
             e$PLATFORMS[t],
             ")\n <br />",
             if(httr::http_status(httr::GET(e$URL[t]))$reason == "OK"){
-              "<img width=20px src='../images/url_valid.svg' /> "
+              "<img width=20px src='images/url_valid.svg' /> "
             }else{
-              "<img width=20px src='../images/url_error.svg' /> "
+              "<img width=20px src='images/url_error.svg' /> "
             },
             e$URL[t],
             "\n <br />",
