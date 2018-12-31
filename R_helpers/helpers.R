@@ -7,7 +7,7 @@
 
 # Load packages -------------------------------------------------------------------------------
 ##define needed packages
-packages <- c("rvest", "xml2", "httr")
+packages <- c("rvest", "xml2", "httr", "shiny")
 
 ##if not installed, grep them
 id_missing <- which(!packages %in% installed.packages()[,"Package"])
@@ -51,6 +51,24 @@ if(length(id_missing) > 0)
 }
 
 ##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##check the URLs
+.url_check <- function(x){
+  for(i in 1:nrow(x)){
+   if(httr::http_status(httr::GET(x$URL[i]))$reason == "OK"){
+    x[["URL_CHECK"]][i] <- TRUE
+
+   }else{
+     x[["URL_CHECK"]][i] <- FALSE
+     warning(x$URL[i], " invalid!", call. = FALSE, immediate. = TRUE)
+
+   }
+
+  }
+
+  return(x)
+}
+
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##group software by task and sort by name
 .sort_software <- function(df){
     ##split by TASK
@@ -72,40 +90,28 @@ if(length(id_missing) > 0)
             "* **",
             e$NAME[t],
             "** ",
-            switch(
-              EXPR = e$TYPE[t],
-              "R package" =  "<img width=55px src='images/r_package.svg' /> ",
-              "R scripts" =  "<img width=55px src='images/r_scripts.svg' /> ",
-              "web service" =  "<img width=53px src='images/web_service.svg' /> ",
-              "application" =  "<img width=53px src='images/application.svg' /> "
-            ),
-            switch(
-              EXPR = e$STATUS[t],
-              active =  "<img width=90px src='images/status_active.svg' /> ",
-              unpublished = "<img width=90px src='images/status_unpublished.svg' /> ",
-              abandoned = "<img width=90px src='images/status_abandoned.svg' /> "
-            ),
+            if(e$VERSION[t] != "")
+              paste0("[", e$VERSION[t], "]&nbsp;"),
+            paste0("<img width=60px src='images/badges_",e$TYPE[t],".svg' />"),
+            "&nbsp;",
+            paste0("<img width=60px src='images/badges_sta_",e$STATUS[t],".svg' />"),
+            "&nbsp;",
+            if(e$WIN[t]) "<img width=20px src='images/badges_WIN.svg' />",
+            if(e$MAC[t]) "<img width=20px src='images/badges_MAC.svg' />",
+            if(e$LIN[t]) "<img width=20px src='images/badges_LIN.svg' />",
             "\n <br />",
             e$DESCRIPTION[t],
-            "\n (v",
-            e$VERSION[t],
-            " | ",
-            e$PLATFORMS[t],
-            ")\n <br />",
-            if(httr::http_status(httr::GET(e$URL[t]))$reason == "OK"){
-              "<img width=20px src='images/url_valid.svg' /> "
+            "\n <br />",
+            if(e$URL_CHECK[t]){
+              "<img width=20px src='images/badges_url_valid.svg' /> "
             }else{
-              "<img width=20px src='images/url_error.svg' /> "
+              "<img width=20px src='images/badges_url_error.svg' /> "
             },
             e$URL[t],
-            "\n <br />",
-            if(!is.na(e$CITATION[t]) && e$CITATION[t] != ""){
-              paste0("*<small>",
-              e$CITATION[t],
-              "</small>*")
-            }else{
-               ""
-             }
+            "\n",
+            if(!is.na(e$CITATION[t]) && e$CITATION[t] != "")
+              paste0("<br /> *<small>", e$CITATION[t], "</small>*"),
+            shiny::hr()
             )
         }), collapse = "\n"),
       "\n"

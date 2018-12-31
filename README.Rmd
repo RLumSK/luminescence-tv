@@ -55,11 +55,25 @@ df <- suppressWarnings(
 ```
 
 ```{r, echo = FALSE, warning = FALSE}
+##check URL
+df <- .url_check(df)
+
 ##check for version and description
 df <- .fill_description(df)
 
-##split
+##export data.frame
+write.table(
+  x = df,
+  file = "export/software_table.csv",
+  append = FALSE,
+  sep = ",",
+  col.names = TRUE
+  )
+
+##split list
 df_list <- .sort_software(df)
 ```
 
 `r .render_list(df_list)`
+
+
