@@ -19,3 +19,7 @@ rmarkdown::render(
 ##RENDER MD
 rmarkdown::render("README.Rmd", output_format = "github_document")
 file.copy(from = "README.md", to = "export/README.md", overwrite = TRUE)
+
+##CLEAN-UP
+if(file.exists("README.html"))
+  file.remove("README.html")

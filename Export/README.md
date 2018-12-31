@@ -384,9 +384,3 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     Measurements, 44 (4), 409-410. doi:
     <https://doi.org/10.1016/j.radmeas.2009.05.003></small>*
     <hr/>
-
-# Legend
-
-| Badge                               | Info                         |
-| ----------------------------------- | ---------------------------- |
-| ![Open source](images/osi_logo.png) | This software is open source |
