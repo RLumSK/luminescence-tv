@@ -25,8 +25,8 @@ limited to R packages.
 
 ### Age calculation
 
-  - **DRAC** <img width=48px src='images/web_service.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Dose rate
+  - **DRAC** <img width=53px src='images/web_service.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Dose rate
     and luminescence age calculator (v1.2 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
     <http://www.aber.ac.uk/en/dges/research/quaternary/luminescence-research-laboratory/dose-rate-calculator/>
@@ -37,8 +37,8 @@ limited to R packages.
 
 ### Chronological modelling
 
-  - **ArchaeoChron** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Provides a
+  - **ArchaeoChron** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Provides a
     list of functions for the Bayesian modeling of archaeological
     chronologies. The Bayesian models are implemented in ‘JAGS’ (‘JAGS’
     stands for Just Another Gibbs Sampler. It is a program for the
@@ -52,8 +52,8 @@ limited to R packages.
     calibration. (v0.1 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://CRAN.R-project.org/package=ArchaeoChron> <br />
-  - **ArchaeoPhases** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Provides a
+  - **ArchaeoPhases** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Provides a
     list of functions for the statistical analysis of archaeological
     dates and groups of dates. It is based on the post-processing of the
     Markov Chains whose stationary distribution is the posterior
@@ -66,8 +66,8 @@ limited to R packages.
     Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://CRAN.R-project.org/package=ArchaeoPhases> <br />
-  - **BayLum** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Bayesian
+  - **BayLum** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Bayesian
     analysis of luminescence data and C-14 age estimates. Bayesian
     models are based on the following publications: Combes, B. &
     Philippe, A. (2017) <doi:10.1016/j.quageo.2017.02.003> and Combes et
@@ -80,14 +80,14 @@ limited to R packages.
     Bayesian analysis of OSL ages: An introduction. Quaternary
     Geochronology 49, 16–24. doi:
     <https://doi.org/10.1016/j.quageo.2018.05.009></small>*
-  - **ChronoModel** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' />
+  - **ChronoModel** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' />
     <br />Chronological Modelling of Archaeological Data using Bayesian
     Statistics with an advanced graphical user interface (v1.5 |
     Windows, macOS) <br /><img width=20px src='images/url_valid.svg' />
     <https://chronomodel.com> <br />
-  - **RChronoModel** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Provides a
+  - **RChronoModel** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Provides a
     list of functions for the statistical analysis and the
     post-processing of the Markov Chains simulated by ChronoModel (see
     <http://www.chronomodel.fr> for more information). ChronoModel is a
@@ -101,8 +101,8 @@ limited to R packages.
 
 ### Dose rate modelling
 
-  - **DosiVox** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A Geant
+  - **DosiVox** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A Geant
     4-based software for dosimetry simulations relevant to luminescence
     and ESR dating techniques (v2018-12-03 | Linux)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -111,16 +111,16 @@ limited to R packages.
     Implementing Geant 4-based software for dosimetry simulations
     relevant to luminescence and ESR dating techniques. Ancient TL 33,
     1–10.</small>*
-  - **DosiVox2D** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_unpublished.svg' /> <br />A Geant
+  - **DosiVox2D** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_unpublished.svg' /> <br />A Geant
     4-based software for dosimetry simulations relevant to luminescence
     and ESR dating techniques; simplified version in comparison to
     DosiVox (v2018-12-03 | Linux)
     <br /><img width=20px src='images/url_valid.svg' />
     <http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144&lang=fr>
     <br />
-  - **RCarb** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Translation
+  - **RCarb** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Translation
     of the ‘MATLAB’ program ‘Carb’ (Nathan and Mauz 2008
     <doi:10.1016/j.radmeas.2007.12.012>; Mauz and Hoffmann 2014) for
     dose rate modelling for carbonate-rich samples in the context of
@@ -131,14 +131,14 @@ limited to R packages.
 
 ### ESR data analysis
 
-  - **ESR** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_unpublished.svg' /> <br />R
+  - **ESR** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_unpublished.svg' /> <br />R
     package ESR for plotting and analysing ESR spectra in dating
     applications (v2018-12-06 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://github.com/tzerk/ESR> <br />
-  - **MCDoseE** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Dose
+  - **MCDoseE** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Dose
     response curve fitting, dose evaluation for ESR dating (v | MatLab)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://www.sciencedirect.com/science/article/pii/S1871101417300626?via%3Dihub>
@@ -149,8 +149,8 @@ limited to R packages.
 
 ### Gamma-ray spectrometry
 
-  - **gammaSpec** <img width=50px src='images/r_scripts.svg' />
-    <img width=80px src='images/status_unpublished.svg' /> <br />A
+  - **gammaSpec** <img width=55px src='images/r_scripts.svg' />
+    <img width=90px src='images/status_unpublished.svg' /> <br />A
     collection of functions to analyse gamma spectra (v2017-07-17 |
     Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -158,15 +158,15 @@ limited to R packages.
 
 ### Luminescence data analysis
 
-  - **Analyst** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />The standard
+  - **Analyst** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />The standard
     programme to analyse luminescence data (v4.57 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
     <http://users.aber.ac.uk/ggd/> <br />*<small>Duller, G.A.T., 2015.
     The Analyst software package for luminescence data: overview and
     recent improvements. Ancient TL 33, 35–42.</small>*
-  - **Luminescence** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A collection
+  - **Luminescence** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A collection
     of various R functions for the purpose of Luminescence dating data
     analysis. This includes, amongst others, data import, export,
     application of age models, curve deconvolution, sequence analysis
@@ -176,8 +176,8 @@ limited to R packages.
     <br />*<small>Kreutzer, S., Schmidt, C., Fuchs, M.C., Dietze, M.,
     Fischer, M., Fuchs, M., 2012. Introducing an R package for
     luminescence dating analysis. Ancient TL 30, 1–8.</small>*
-  - **numOSL** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Package for
+  - **numOSL** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Package for
     optimizing regular numeric problems in optically stimulated
     luminescence dating, such as: equivalent dose calculation, dose rate
     determination, growth curve fitting, decay curve decomposition,
@@ -188,21 +188,21 @@ limited to R packages.
     Dong, Z., Han, F., Long, H., Liu, X., 2013. R package numOSL:
     numeric routines for optically stimulated luminescence dating.
     Ancient TL 31, 41–48.</small>*
-  - **PTanalyse** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Proprietary
+  - **PTanalyse** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Proprietary
     software to analyse TR-OSL data (v1.51 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software>
     <br />*<small> </small>*
-  - **RLanalyse** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Proprietary
+  - **RLanalyse** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Proprietary
     software to analyse radiofluorescence data (BIN/BINX-file input
     required) (v1.3 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software>
     <br />*<small> </small>*
-  - **tgcd** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Deconvolving
+  - **tgcd** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Deconvolving
     thermoluminescence glow curves according to the general-order
     empirical expression or the semi-analytical expression derived from
     the one trap- one recombination (OTOR) model using a modified
@@ -218,8 +218,8 @@ limited to R packages.
     Dong, Z., Han, F., 2016. tgcd: An R package for analyzing
     thermoluminescence glow curves. SoftwareX 1–9. doi:
     <https://doi.org/10.1016/j.softx.2016.06.001></small>*
-  - **TLdating** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A series of
+  - **TLdating** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A series of
     function to make thermoluminescence dating using the MAAD or the SAR
     protocol. This package completes the R package “Luminescence.”
     (v0.1.3 | Windows, Linux, macOS)
@@ -231,15 +231,15 @@ limited to R packages.
 
 ### Luminescence data visualisation
 
-  - **Viewer** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_abandoned.svg' />
+  - **Viewer** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_abandoned.svg' />
     <br />Proprietary software to visualise luminescence data recorded
     in BIN/BINX-files (v4.4 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software>
     <br />*<small> </small>*
-  - **Viewer+** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Proprietary
+  - **Viewer+** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Proprietary
     software to visualise luminescence data recorded in BIN/BINX-files;
     sucessor of Viewer (v1.43 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -248,8 +248,8 @@ limited to R packages.
 
 ### Miscellaneous
 
-  - **XRFanalyse** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Proprietary
+  - **XRFanalyse** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Proprietary
     software to analyse XRF data recorded with a Risø OSL/TL attachement
     (v1.12 | Windows)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -258,8 +258,8 @@ limited to R packages.
 
 ### Modelling
 
-  - **KMS** <img width=50px src='images/r_scripts.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Collection
+  - **KMS** <img width=55px src='images/r_scripts.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Collection
     of functions to simulate kinetic models for quartz luminescence
     production (v2018-07-11 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -268,8 +268,8 @@ limited to R packages.
     quartz luminescence using the R program KMS. Radiation Measurements
     86, 63–70. doi:
     <https://doi.org/10.1016/j.radmeas.2016.01.022></small>*
-  - **RLumModel** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A collection
+  - **RLumModel** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A collection
     of functions to simulate luminescence signals in quartz and Al2O3
     based on published models. (v0.2.3 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
@@ -282,8 +282,8 @@ limited to R packages.
 
 ### Plotting
 
-  - **RLumShiny** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A collection
+  - **RLumShiny** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A collection
     of ‘shiny’ applications for the R package ‘Luminescence’. These
     mainly, but not exclusively, include applications for plotting
     chronometric data from e.g. luminescence or radiocarbon dating. It
@@ -298,8 +298,8 @@ limited to R packages.
 
 ### Teaching
 
-  - **LumReader** <img width=50px src='images/r_package.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />A series of
+  - **LumReader** <img width=55px src='images/r_package.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />A series of
     functions to estimate the detection windows of a luminescence reader
     based on the filters and the photomultiplier (PMT) selected. These
     functions also allow to simulate a luminescence experiment based on
@@ -310,16 +310,16 @@ limited to R packages.
 
 ### Visualisation
 
-  - **DensityPlotter** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Java
+  - **DensityPlotter** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Java
     application for Kernel Density Estimation plots (v8.4 | Windows,
     Linux, macOS) <br /><img width=20px src='images/url_valid.svg' />
     <https://www.ucl.ac.uk/~ucfbpve/densityplotter/>
     <br />*<small>Vermeesch, P., 2012. On the visualisation of detrital
     age distributions. Chemical Geology, v.312-313, 190-194, doi:
     10.1016/j.chemgeo.2012.04.021 0</small>*
-  - **RadialPlotter** <img width=48px src='images/application.svg' />
-    <img width=80px src='images/status_active.svg' /> <br />Java
+  - **RadialPlotter** <img width=53px src='images/application.svg' />
+    <img width=90px src='images/status_active.svg' /> <br />Java
     software to create radial plots (v9.4 | Windows, Linux, macOS)
     <br /><img width=20px src='images/url_valid.svg' />
     <https://www.ucl.ac.uk/~ucfbpve/radialplotter/>
