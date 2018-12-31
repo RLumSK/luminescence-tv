@@ -21,7 +21,7 @@ limited to R packages.
 **Your software is missing?** Please let me know via
 <https://github.com/RLumSK/luminescence-tv/issues>
 
-# Data analysis tasks
+# Mission tasks
 
 ### Age calculation
 

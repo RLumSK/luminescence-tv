@@ -40,7 +40,7 @@ ordered alphabetically within the task sections. The collection is not limited t
 
 **Your software is missing?** Please let me know via  https://github.com/RLumSK/luminescence-tv/issues
 
-# Data analysis tasks
+# Mission tasks 
 
 ```{r, echo = FALSE, warning=FALSE}
 ##import software table 
