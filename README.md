@@ -14,9 +14,12 @@ Sebastian Kreutzer
 In analogy of the [CRAN task view
 lists](https://cran.rstudio.com/web/views/), this list is a collection
 of freely available software for the broader framework trapped charged
-dating (e.g., luminescence and ESR data analysis). Software tools are
-ordered alphabetically within the task sections. The collection is not
-limited to R packages.
+dating (e.g., luminescence and ESR data analysis). Software tools (not
+only R packages) and data repositories are ordered alphabetically within
+the task sections.
+
+*Note: Listed are only tools accessible free of charge through the
+internet.*
 
 **Your software is missing?** Please let me know via
 <https://github.com/RLumSK/luminescence-tv/issues>
@@ -111,7 +114,12 @@ limited to R packages.
     <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_unknown.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of luminescence ages from sand dunes world wide
     <br /><img width=20px src='images/badges_url_valid.svg' />
-    <http://www.dri.edu/inquadunesatlas>
+    <http://www.dri.edu/inquadunesatlas> <br /> *<small>Lancaster, N.,
+    Wolfe, S., Thomas, D., Bristow, C., Bubenzer, O., Burrough, S.,
+    Duller, G., Halfen, A., Hesse, P., Roskin, J., Singhvi, A., Tsoar,
+    H., Tripaldi, A., Yang, X., Zárate, M., 2015. The INQUA Dunes Atlas
+    chronologic database. Quaternary International 410, 3–10. doi:
+    <https://doi.org/10.1016/j.quaint.2015.10.044></small>*
     <hr/>
   - **OCTOPUS**
     <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -360,7 +368,7 @@ limited to R packages.
     <https://www.ucl.ac.uk/~ucfbpve/densityplotter/> <br />
     *<small>Vermeesch, P., 2012. On the visualisation of detrital age
     distributions. Chemical Geology, v.312-313, 190-194, doi:
-    <https://doi.org/10.1016/j.chemgeo.2012.04.021> 0</small>*
+    <https://doi.org/10.1016/j.chemgeo.2012.04.021></small>*
     <hr/>
   - **RadialPlotter**
     \[9.4\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
