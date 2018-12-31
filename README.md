@@ -12,17 +12,21 @@ Sebastian Kreutzer
 # About
 
 In analogy of the [CRAN task view
-lists](https://cran.rstudio.com/web/views/), this list is a collection
-of freely available software for the broader framework trapped charged
-dating (e.g., luminescence and ESR data analysis). Software tools (not
-only R packages) and data repositories are ordered alphabetically within
-the task sections.
+lists](https://cran.rstudio.com/web/views/), this list provides an
+overview of freely available tools for trapped charged (dating) data
+analysis (e.g., luminescence and ESR data analysis). Tasks, software
+tools (not only R packages) and data repositories are ordered
+alphabetically. URLs are automatically tested every time this list is
+updated.
 
-*Note: Listed are only tools accessible free of charge through the
-internet.*
+Not listed are:
 
-**Your software is missing?** Please let me know via
-<https://github.com/RLumSK/luminescence-tv/issues>
+  - Single scripts (e.g., functions or XLS-sheets usually without a
+    dedicated name)
+  - Software not accessible free of charge through the internet
+
+If **your software is missing** or you did spot a mistake, please let me
+know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
