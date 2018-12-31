@@ -9,8 +9,8 @@
 rm(list = ls())
 
 ##RENDER ALL
-rmarkdown::render("R_helpers/README.Rmd", output_format = "all", output_dir = "Export")
+rmarkdown::render("R_helpers/README.Rmd", output_format = "all", output_dir = "export")
 
 ##update READMED
-rmarkdown::render("R_helpers/README.Rmd", output_dir = "../")
+#rmarkdown::render("R_helpers/README.Rmd", output_dir = "../")
 
