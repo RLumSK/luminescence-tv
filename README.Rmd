@@ -34,10 +34,7 @@ source("R_helpers/helpers.R")
 # About 
 
 In analogy of the [CRAN task view lists](https://cran.rstudio.com/web/views/), 
-this list provides an overview of freely available tools for trapped charged (dating) data analysis 
-(e.g., luminescence and ESR data analysis). Tasks, software tools (not only 
-R packages) and data repositories are ordered alphabetically. URLs are automatically 
-tested every time this list is updated. 
+this list provides an overview of freely available tools for trapped charged (dating) data analysis (e.g., luminescence and ESR data). Tasks, software tools and data repositories are ordered alphabetically. URLs are automatically tested every time this list is updated, information from R packages are extracted and updated automatically from [CRAN](https://cloud.r-project.org) (version, description).
 
 Not listed are:
 
@@ -81,8 +78,17 @@ write.table(
 df_list <- .sort_software(df)
 ```
 
+Total number of listed tools: `r nrow(df)`
+
 `r .render_list(df_list)`
 
-![Open source software](images/osi_logo.png){width=15px}
+# Legend{-}
+
+|Icon             | Meaning     |
+|-----------------|-------------|
+|[0.1]            | Indicates the latest available version, here 0.1 |
+|<img width=13px src='images/osi_logo.png'/> | This software is open source |
+|<img width=60px src='images/badges_r_package.svg'/> | Type of software (here: R package) |
+|<img width=20px src='images/badges_LIN.svg'/> | Supported operating system, here: Linux |
 
 
