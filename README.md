@@ -1,7 +1,7 @@
 Trapped Charged Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2018-12-31)
+(last update: 2019-01-01)
 
 
 
@@ -114,7 +114,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 ### Data mining
 
-  - **INQUA Dunes Atla**
+  - **INQUA Dunes Atlas**
     <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_unknown.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of luminescence ages from sand dunes world wide
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -384,3 +384,5 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     Measurements, 44 (4), 409-410. doi:
     <https://doi.org/10.1016/j.radmeas.2009.05.003></small>*
     <hr/>
+
+![Open source software](images/osi_logo.png)

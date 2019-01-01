@@ -83,4 +83,6 @@ df_list <- .sort_software(df)
 
 `r .render_list(df_list)`
 
+![Open source software](images/osi_logo.png){width=15px}
+
 
