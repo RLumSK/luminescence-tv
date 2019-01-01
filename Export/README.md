@@ -1,7 +1,7 @@
-Trapped Charged Data Analysis: Task View
+Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2018-12-31)
+(last update: 2019-01-01)
 
 
 
@@ -13,11 +13,12 @@ Sebastian Kreutzer
 
 In analogy of the [CRAN task view
 lists](https://cran.rstudio.com/web/views/), this list provides an
-overview of freely available tools for trapped charged (dating) data
-analysis (e.g., luminescence and ESR data analysis). Tasks, software
-tools (not only R packages) and data repositories are ordered
-alphabetically. URLs are automatically tested every time this list is
-updated.
+overview of freely available tools for trapped charge (dating) data
+analysis (e.g., luminescence and ESR data). Tasks, software tools and
+data repositories are ordered alphabetically. URLs are automatically
+tested every time this list is updated, information from R packages are
+extracted and updated automatically from
+[CRAN](https://cloud.r-project.org) (version, description).
 
 Not listed are:
 
@@ -30,17 +31,38 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
+Total number of listed tools: 33
+
 ### Age calculation
 
+  - **AGE**
+    \[2009-11-14\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_ancient.svg' /> <img width=20px src='images/badges_WIN.svg' />
+    <br />Program for the calculation of luminescence ages estimates
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip>
+    <br />
+    *<small><http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_p45-46.pdf></small>*
+    <hr/>
   - **DRAC**
     \[1.2\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_web_service.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
-    <br />Dose rate and luminescence age calculator
+    <br />Online dose rate and luminescence age calculator
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <http://www.aber.ac.uk/en/dges/research/quaternary/luminescence-research-laboratory/dose-rate-calculator/>
     <br /> *<small>Durcan, J.A., King, G.E., Duller, G.A.T., 2015. DRAC:
     Dose Rate and Age Calculator for trapped charge dating. Quaternary
     Geochronology 28, 54–61. doi:
     <https://doi.org/10.1016/j.quageo.2015.03.012></small>*
+    <hr/>
+  - **DRc**
+    <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' />
+    <br />Dose Rate Calculator for luminescence and ESR Dating (Java
+    application)
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <http://www.ims.demokritos.gr/download/> <br /> *<small>Tsakalos,
+    E., Christodoulakis, J., Charalambous, L., 2015. The Dose Rate
+    Calculator (DRc) for Luminescence and ESR Dating-a Java Application
+    for Dose Rate and Age Determination. Archaeometry 58, 347–352. doi:
+    <https://doi.org/10.1111/arcm.12162></small>*
     <hr/>
 
 ### Chronological modelling
@@ -74,7 +96,10 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <http://bcal.shef.ac.uk/>). The only requirement is to have a csv
     file containing a sample from the posterior distribution.
     <br /><img width=20px src='images/badges_url_valid.svg' />
-    <https://CRAN.R-project.org/package=ArchaeoPhases>
+    <https://CRAN.R-project.org/package=ArchaeoPhases> <br />
+    *<small>Philippe, A., Vibet, M.-A., 2018. Analysis of Archaeological
+    Phases using the CRAN Package ArchaeoPhases. Journal of Statistical
+    Software 1–26. doi: <https://doi.org/10.18637/jss.v000.i00></small>*
     <hr/>
   - **BayLum**
     \[0.1.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -99,7 +124,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://chronomodel.com>
     <hr/>
   - **RChronoModel**
-    \[0.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' />
     <br />Provides a list of functions for the statistical analysis and
     the post-processing of the Markov Chains simulated by ChronoModel
     (see <http://www.chronomodel.fr> for more information). ChronoModel
@@ -109,12 +134,15 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     functions can also be applied to the analyse of mcmc output
     generated by Oxcal software.
     <br /><img width=20px src='images/badges_url_valid.svg' />
-    <https://CRAN.R-project.org/package=RChronoModel>
+    <https://CRAN.R-project.org/package=RChronoModel> <br />
+    *<small>Philippe, A., Vibet, M.-A., 2017. Analysis of Archaeological
+    Phases using the CRAN Package RChronoModel. doi:
+    <https://doi.org/10.13140/RG.2.2.19659.59688></small>*
     <hr/>
 
 ### Data mining
 
-  - **INQUA Dunes Atla**
+  - **INQUA Dunes Atlas**
     <img width=60px src='images/badges_repository.svg' /> <img width=60px src='images/badges_sta_unknown.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of luminescence ages from sand dunes world wide
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -139,7 +167,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 ### Dose rate modelling
 
   - **DosiVox**
-    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_LIN.svg' />
+    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A Geant 4-based software for dosimetry simulations relevant to
     luminescence and ESR dating techniques
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -147,10 +175,11 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <br /> *<small>Martin, L., Incerti, S., Mercier, N., 2015. DosiVox:
     Implementing Geant 4-based software for dosimetry simulations
     relevant to luminescence and ESR dating techniques. Ancient TL 33,
-    1–10.</small>*
+    1–10.
+    <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Martin_p1-10.pdf></small>*
     <hr/>
   - **DosiVox2D**
-    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_LIN.svg' />
+    \[2018-12-03\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A Geant 4-based software for dosimetry simulations relevant to
     luminescence and ESR dating techniques; simplified version in
     comparison to DosiVox
@@ -192,9 +221,16 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
   - **gammaSpec**
     \[2017-07-17\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
-    <br />A collection of functions to analyse gamma spectra
+    <br />A collection of functions to analyse gamma-ray spectra
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://github.com/tzerk/gammaSpec>
+    <hr/>
+  - **rxylib**
+    \[0.2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Provides access to the ‘xylib’ C library for to import xy data
+    from powder diffraction, spectroscopy and other experimental
+    methods. <br /><img width=20px src='images/badges_url_valid.svg' />
+    <https://CRAN.R-project.org/package=rxylib>
     <hr/>
 
 ### Luminescence data analysis
@@ -205,7 +241,8 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <http://users.aber.ac.uk/ggd/> <br /> *<small>Duller, G.A.T., 2015.
     The Analyst software package for luminescence data: overview and
-    recent improvements. Ancient TL 33, 35–42.</small>*
+    recent improvements. Ancient TL 33, 35–42.
+    <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
   - **Luminescence**
     \[0.8.6\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -217,7 +254,8 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://CRAN.R-project.org/package=Luminescence> <br />
     *<small>Kreutzer, S., Schmidt, C., Fuchs, M.C., Dietze, M., Fischer,
     M., Fuchs, M., 2012. Introducing an R package for luminescence
-    dating analysis. Ancient TL 30, 1–8.</small>*
+    dating analysis. Ancient TL 30, 1–8.
+    <http://ancienttl.org/ATL_30-1_2012/ATL_30-1_Kreutzer_p1-8.pdf></small>*
     <hr/>
   - **numOSL**
     \[2.6\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -230,14 +268,18 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://CRAN.R-project.org/package=numOSL> <br /> *<small>Peng, J.,
     Dong, Z., Han, F., Long, H., Liu, X., 2013. R package numOSL:
     numeric routines for optically stimulated luminescence dating.
-    Ancient TL 31, 41–48.</small>*
+    Ancient TL 31, 41–48.
+    <http://ancienttl.org/ATL_31-2_2013/ATL_31-2_Peng_p41-48.pdf></small>*
     <hr/>
   - **PTanalyse**
     \[1.51\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' />
     <br />Proprietary software to analyse TR-OSL data
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software>
-    <br /> *<small> </small>*
+    <br /> *<small>Lapp, T., Jain, M., Ankjærgaard, C., Pirtzel, L.,
+    2009. Development of pulsed stimulation and Photon Timer attachments
+    to the Risø TL/OSL reader. Radiation Measurements 44, 571–575. doi:
+    <https://doi.org/10.1016/j.radmeas.2009.01.012></small>*
     <hr/>
   - **RLanalyse**
     \[1.3\] <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' />
@@ -245,7 +287,10 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     (BIN/BINX-file input required)
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software>
-    <br /> *<small> </small>*
+    <br /> *<small>Lapp, T., Jain, M., Thomsen, K.J., Murray, A.S.,
+    Buylaert, J.P., 2012. New luminescence measurement facilities in
+    retrospective dosimetry. Radiation Measurements 47, 803–808. doi:
+    <https://doi.org/10.1016/j.radmeas.2012.02.006></small>*
     <hr/>
   - **tgcd**
     \[2.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
@@ -272,7 +317,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     “Luminescence.”
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://CRAN.R-project.org/package=TLdating> <br />
-    *<small>Strebler, D., Burow, C., Brill, D., Br ckner, H., 2017.
+    *<small>Strebler, D., Burow, C., Brill, D., Brückner, H., 2017.
     Using R for TL dating. Quaternary Geochronology 37, 97–107. doi:
     <https://doi.org/10.1016/j.quageo.2016.09.001></small>*
     <hr/>
@@ -347,7 +392,8 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://CRAN.R-project.org/package=RLumShiny> <br /> *<small>Burow,
     C., Kreutzer, S., Dietze, M., Fuchs, M.C., Fischer, M., Schmidt, C.,
     Brückner, H., 2016. RLumShiny - A graphical user interface for the R
-    Package ’Luminescence’. Ancient TL 34, 22–32.</small>*
+    Package ’Luminescence’. Ancient TL 34, 22–32.
+    <http://ancienttl.org/ATL_34-2_2016/ATL_34-2_Burow_p22-32.pdf></small>*
     <hr/>
 
 ### Teaching
@@ -371,7 +417,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://www.ucl.ac.uk/~ucfbpve/densityplotter/> <br />
     *<small>Vermeesch, P., 2012. On the visualisation of detrital age
-    distributions. Chemical Geology, v.312-313, 190-194, doi:
+    distributions. Chemical Geology, 312-313, 190-194, doi:
     <https://doi.org/10.1016/j.chemgeo.2012.04.021></small>*
     <hr/>
   - **RadialPlotter**
@@ -385,4 +431,11 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
     <https://doi.org/10.1016/j.radmeas.2009.05.003></small>*
     <hr/>
 
-![drawing](images/osi_logo.png)
+# Legend
+
+| Icon                                                | Meaning                                          |
+| --------------------------------------------------- | ------------------------------------------------ |
+| \[0.1\]                                             | Indicates the latest available version, here 0.1 |
+| <img width=13px src='images/osi_logo.png'/>         | This software is open source                     |
+| <img width=60px src='images/badges_r_package.svg'/> | Type of software (here: R package)               |
+| <img width=20px src='images/badges_LIN.svg'/>       | Supported operating system, here: Linux          |

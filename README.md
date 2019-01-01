@@ -1,4 +1,4 @@
-Trapped Charged Data Analysis: Task View
+Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
 (last update: 2019-01-01)
@@ -13,7 +13,7 @@ Sebastian Kreutzer
 
 In analogy of the [CRAN task view
 lists](https://cran.rstudio.com/web/views/), this list provides an
-overview of freely available tools for trapped charged (dating) data
+overview of freely available tools for trapped charge (dating) data
 analysis (e.g., luminescence and ESR data). Tasks, software tools and
 data repositories are ordered alphabetically. URLs are automatically
 tested every time this list is updated, information from R packages are
@@ -31,7 +31,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tool: 33
+Total number of listed tools: 33
 
 ### Age calculation
 

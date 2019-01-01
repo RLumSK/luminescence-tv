@@ -1,5 +1,5 @@
 ---
-title: "Trapped Charged Data Analysis: Task View"
+title: "Trapped Charge Data Analysis: Task View"
 author: "Sebastian Kreutzer"
 date: "(last update: `r Sys.Date()`)"
 output:
@@ -34,7 +34,7 @@ source("R_helpers/helpers.R")
 # About 
 
 In analogy of the [CRAN task view lists](https://cran.rstudio.com/web/views/), 
-this list provides an overview of freely available tools for trapped charged (dating) data analysis (e.g., luminescence and ESR data). Tasks, software tools and data repositories are ordered alphabetically. URLs are automatically tested every time this list is updated, information from R packages are extracted and updated automatically from [CRAN](https://cloud.r-project.org) (version, description).
+this list provides an overview of freely available tools for trapped charge (dating) data analysis (e.g., luminescence and ESR data). Tasks, software tools and data repositories are ordered alphabetically. URLs are automatically tested every time this list is updated, information from R packages are extracted and updated automatically from [CRAN](https://cloud.r-project.org) (version, description).
 
 Not listed are:
 
@@ -68,7 +68,7 @@ df <- .fill_description(df)
 ##export data.frame
 write.table(
   x = df,
-  file = "export/software_table.csv",
+  file = paste0("export/",Sys.Date(),"_software_table.csv"),
   append = FALSE,
   sep = ",",
   col.names = TRUE
