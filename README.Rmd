@@ -46,7 +46,7 @@ If **your software is missing** or you did spot a mistake, please let me know vi
 
 # Mission tasks 
 
-```{r, echo = FALSE, warning=FALSE}
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
 ##import software table 
 df <- suppressWarnings(
     read.table(

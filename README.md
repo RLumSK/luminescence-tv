@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-01-01)
+(last update: 2019-01-17)
 
 
 
@@ -85,7 +85,7 @@ Total number of listed tools: 33
     <https://CRAN.R-project.org/package=ArchaeoChron>
     <hr/>
   - **ArchaeoPhases**
-    \[1.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[1.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides a list of functions for the statistical analysis of
     archaeological dates and groups of dates. It is based on the
     post-processing of the Markov Chains whose stationary distribution
@@ -381,7 +381,7 @@ Total number of listed tools: 33
 ### Plotting
 
   - **RLumShiny**
-    \[0.2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.2.2\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of ‘shiny’ applications for the R package
     ‘Luminescence’. These mainly, but not exclusively, include
     applications for plotting chronometric data from e.g. luminescence
