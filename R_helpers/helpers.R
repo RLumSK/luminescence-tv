@@ -2,7 +2,7 @@
 ## Title:   Helper Functions for luminescence-tv
 ## Author:  Sebastian Kreutzer, IRAMAT-CRP2A, Universite Bordeaux Montaigne (France)
 ## Contact: sebastian.kreutzer@u-bordeaux-montaigne.fr
-## Date:    Sun Dec 30 14:10:29 2018
+## Initial:    Sun Dec 30 14:10:29 2018
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Load packages -------------------------------------------------------------------------------
@@ -34,8 +34,18 @@ if(length(id_missing) > 0)
 
       }else{
         descr <- rvest::html_text(rvest::html_nodes(x = xml, css = "p")[1])
-        version <- rvest::html_table(xml)[[1]][[2]][[1]]
-        return(c(descr, version))
+
+        ##make sure everything is correct, manual notice
+        if(grepl(pattern = "was removed from the CRAN", x = descr)){
+          message(descr)
+          return(c(df[["DESCRIPTION"]][x], df[["VERSION"]][x]))
+
+        }else{
+          version <- rvest::html_table(xml)[[1]][[2]][[1]]
+          return(c(descr, version))
+
+        }
+
       }
     }else{
       return(df[x,c("DESCRIPTION", "VERSION")])
@@ -79,6 +89,43 @@ if(length(id_missing) > 0)
 
 }
 
+##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##get last commit on GitHub
+##
+#' @param df [data.frame]
+.last_GitHubcommit <- function(df){
+  ##extract all GitHub software
+  id <- grep(pattern = "https://github.com/", x = df[["URL"]], fixed = TRUE)
+
+  ##roll
+  if(length(id) != 0){
+    ##run over URLs
+    for(i in id){
+      ##set url
+      url <- paste0(
+        "https://api.github.com/repos/",
+         strsplit(x = df[["URL"]][i], split = "https://github.com/", fixed = TRUE)[[1]][2],
+        "/commits?per_page=1")
+
+      ##get information
+      temp <- httr::GET(url,httr::accept_json())
+
+      # ##extract data
+      date <- temp$all_headers[[1]]$headers$`last-modified`
+
+      ##write to df
+      df[["VERSION_DATE"]][i] <- date
+    }
+
+    return(df)
+
+
+  }else{
+    return(df)
+
+  }
+
+}
 
 # Render list ---------------------------------------------------------------------------------
 ##render markdown list, this gives more control
@@ -90,8 +137,10 @@ if(length(id_missing) > 0)
             "* **",
             e$NAME[t],
             "** ",
-            if(e$VERSION[t] != "")
+            if(!is.na(e$VERSION[t]) && e$VERSION[t] != "")
               paste0("[", e$VERSION[t], "]&nbsp;"),
+            if(!is.na(e$VERSION_DATE[t]) && e$VERSION_DATE[t] != "")
+              paste0("[", e$VERSION_DATE[t], "]&nbsp;"),
             if(e$OPEN_SOURCE[t])
               "<img width=13px src='images/osi_logo.png'/>&nbsp;",
             paste0("<img width=60px src='images/badges_",e$TYPE[t],".svg' />"),
