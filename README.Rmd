@@ -58,12 +58,15 @@ df <- suppressWarnings(
   )
 ```
 
-```{r, echo = FALSE, warning = FALSE}
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
 ##check URL
 df <- .url_check(df)
 
 ##check for version and description
 df <- .fill_description(df)
+
+##rewrite dates for GitHub code
+df <- .last_GitHubcommit(df)
 
 ##export data.frame
 write.table(

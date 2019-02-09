@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-01-17)
+(last update: 2019-02-09)
 
 
 
@@ -31,7 +31,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 33
+Total number of listed tools: 34
 
 ### Age calculation
 
@@ -123,6 +123,13 @@ Total number of listed tools: 33
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://chronomodel.com>
     <hr/>
+  - **mcmcSAM** \[Mon, 07 Jan 2019 14:17:22
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Analyzing statistical age models for equivalent dose and
+    burial age determination using a Markov Chain Monte Carlo method
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <https://github.com/pengjunUCAS/mcmcSAM>
+    <hr/>
   - **RChronoModel**
     \[0.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' />
     <br />Provides a list of functions for the statistical analysis and
@@ -198,8 +205,8 @@ Total number of listed tools: 33
 
 ### ESR data analysis
 
-  - **ESR**
-    \[2018-12-06\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **ESR** \[Fri, 18 Jan 2019 12:31:54
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -219,8 +226,8 @@ Total number of listed tools: 33
 
 ### Gamma-ray spectrometry
 
-  - **gammaSpec**
-    \[2017-07-17\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **gammaSpec** \[Fri, 18 Jan 2019 15:13:50
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of functions to analyse gamma-ray spectra
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://github.com/tzerk/gammaSpec>
@@ -354,8 +361,8 @@ Total number of listed tools: 33
 
 ### Modelling
 
-  - **KMS**
-    \[2018-07-11\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **KMS** \[Wed, 11 Jul 2018 01:41:12
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -399,12 +406,12 @@ Total number of listed tools: 33
 ### Teaching
 
   - **LumReader**
-    \[0.1.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.0\] \[2017-01-27\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_ancient.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A series of functions to estimate the detection windows of a
     luminescence reader based on the filters and the photomultiplier
     (PMT) selected. These functions also allow to simulate a
     luminescence experiment based on the thermoluminesce (TL) or the
-    optically stimulated luminescence (OSL) properties of a material.
+    optically stimulated luminescence (OSL) properties of a material
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://CRAN.R-project.org/package=LumReader>
     <hr/>
