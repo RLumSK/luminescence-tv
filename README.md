@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-02-15)
+(last update: 2019-04-19)
 
 
 
@@ -233,7 +233,7 @@ Total number of listed tools: 34
     <https://github.com/tzerk/gammaSpec>
     <hr/>
   - **rxylib**
-    \[0.2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.2.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides access to the ‘xylib’ C library for to import xy data
     from powder diffraction, spectroscopy and other experimental
     methods. <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -300,17 +300,16 @@ Total number of listed tools: 34
     <https://doi.org/10.1016/j.radmeas.2012.02.006></small>*
     <hr/>
   - **tgcd**
-    \[2.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
-    <br />Deconvolving thermoluminescence glow curves according to the
-    general-order empirical expression or the semi-analytical expression
-    derived from the one trap- one recombination (OTOR) model using a
-    modified Levenberg-Marquardt algorithm. It provides the possibility
-    of setting constraints or fixing any of parameters. It offers an
-    interactive way to initialize parameters by clicking with a mouse on
-    a plot at positions where peak maxima should be located. The optimal
-    estimate is obtained by “trial-and-error”. It also provides routines
-    for simulating first-order, second-order, and general-order glow
-    peaks (curves).
+    \[2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Deconvolving thermoluminescence glow curves according to
+    various kinetic models (first-order, second-order, general-order,
+    and mixed-order) using a modified Levenberg-Marquardt algorithm. It
+    provides the possibility of setting constraints or fixing any of
+    parameters. It offers an interactive way to initialize parameters by
+    clicking with a mouse on a plot at positions where peak maxima
+    should be located. The optimal estimate is obtained by
+    “trial-and-error”. It also provides routines for simulating
+    first-order, second-order, and general-order glow peaks.
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://CRAN.R-project.org/package=tgcd> <br /> *<small>Peng, J.,
     Dong, Z., Han, F., 2016. tgcd: An R package for analyzing
