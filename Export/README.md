@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-01-17)
+(last update: 2019-04-19)
 
 
 
@@ -31,7 +31,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 33
+Total number of listed tools: 34
 
 ### Age calculation
 
@@ -117,11 +117,22 @@ Total number of listed tools: 33
     <https://doi.org/10.1016/j.quageo.2018.05.009></small>*
     <hr/>
   - **ChronoModel**
-    \[1.5\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[2.0.18\] \[2019-02-01\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_application.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Chronological Modelling of Archaeological Data using Bayesian
     Statistics with an advanced graphical user interface
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://chronomodel.com>
+
+Source code: <https://github.com/Chronomodel/chronomodel>
+
+<hr/>
+
+  - **mcmcSAM** \[Mon, 07 Jan 2019 14:17:22
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Analyzing statistical age models for equivalent dose and
+    burial age determination using a Markov Chain Monte Carlo method
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <https://github.com/pengjunUCAS/mcmcSAM>
     <hr/>
   - **RChronoModel**
     \[0.4\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' />
@@ -198,8 +209,8 @@ Total number of listed tools: 33
 
 ### ESR data analysis
 
-  - **ESR**
-    \[2018-12-06\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **ESR** \[Fri, 18 Jan 2019 12:31:54
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -219,14 +230,14 @@ Total number of listed tools: 33
 
 ### Gamma-ray spectrometry
 
-  - **gammaSpec**
-    \[2017-07-17\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **gammaSpec** \[Fri, 18 Jan 2019 15:13:50
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of functions to analyse gamma-ray spectra
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://github.com/tzerk/gammaSpec>
     <hr/>
   - **rxylib**
-    \[0.2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.2.3\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Provides access to the ‘xylib’ C library for to import xy data
     from powder diffraction, spectroscopy and other experimental
     methods. <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -293,17 +304,16 @@ Total number of listed tools: 33
     <https://doi.org/10.1016/j.radmeas.2012.02.006></small>*
     <hr/>
   - **tgcd**
-    \[2.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
-    <br />Deconvolving thermoluminescence glow curves according to the
-    general-order empirical expression or the semi-analytical expression
-    derived from the one trap- one recombination (OTOR) model using a
-    modified Levenberg-Marquardt algorithm. It provides the possibility
-    of setting constraints or fixing any of parameters. It offers an
-    interactive way to initialize parameters by clicking with a mouse on
-    a plot at positions where peak maxima should be located. The optimal
-    estimate is obtained by “trial-and-error”. It also provides routines
-    for simulating first-order, second-order, and general-order glow
-    peaks (curves).
+    \[2.1\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />Deconvolving thermoluminescence glow curves according to
+    various kinetic models (first-order, second-order, general-order,
+    and mixed-order) using a modified Levenberg-Marquardt algorithm. It
+    provides the possibility of setting constraints or fixing any of
+    parameters. It offers an interactive way to initialize parameters by
+    clicking with a mouse on a plot at positions where peak maxima
+    should be located. The optimal estimate is obtained by
+    “trial-and-error”. It also provides routines for simulating
+    first-order, second-order, and general-order glow peaks.
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://CRAN.R-project.org/package=tgcd> <br /> *<small>Peng, J.,
     Dong, Z., Han, F., 2016. tgcd: An R package for analyzing
@@ -354,8 +364,8 @@ Total number of listed tools: 33
 
 ### Modelling
 
-  - **KMS**
-    \[2018-07-11\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **KMS** \[Wed, 11 Jul 2018 01:41:12
+    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -399,12 +409,12 @@ Total number of listed tools: 33
 ### Teaching
 
   - **LumReader**
-    \[0.1.0\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.1.0\] \[2017-01-27\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_ancient.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A series of functions to estimate the detection windows of a
     luminescence reader based on the filters and the photomultiplier
     (PMT) selected. These functions also allow to simulate a
     luminescence experiment based on the thermoluminesce (TL) or the
-    optically stimulated luminescence (OSL) properties of a material.
+    optically stimulated luminescence (OSL) properties of a material
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://CRAN.R-project.org/package=LumReader>
     <hr/>
