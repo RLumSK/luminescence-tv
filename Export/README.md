@@ -121,12 +121,9 @@ Total number of listed tools: 34
     <br />Chronological Modelling of Archaeological Data using Bayesian
     Statistics with an advanced graphical user interface
     <br /><img width=20px src='images/badges_url_valid.svg' />
-    <https://chronomodel.com>
-
-Source code: <https://github.com/Chronomodel/chronomodel>
-
-<hr/>
-
+    <https://chronomodel.com> | Source code:
+    <https://github.com/Chronomodel/chronomodel>
+    <hr/>
   - **mcmcSAM** \[Mon, 07 Jan 2019 14:17:22
     GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Analyzing statistical age models for equivalent dose and

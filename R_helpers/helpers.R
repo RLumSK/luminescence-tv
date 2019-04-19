@@ -162,7 +162,7 @@ if(length(id_missing) > 0)
             "\n",
 
             if(!is.na(e$SOURCE_CODE_URL[t]) && e$SOURCE_CODE_URL[t] != "")
-              paste0("\nSource code: ", e$SOURCE_CODE_URL[t], "\n"),
+              paste0("| Source code: ", e$SOURCE_CODE_URL[t], "\n"),
 
             if(!is.na(e$CITATION[t]) && e$CITATION[t] != "")
               paste0("<br /> *<small>", e$CITATION[t], "</small>*"),
