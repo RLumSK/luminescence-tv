@@ -138,29 +138,29 @@ if(length(id_missing) > 0)
       c(paste("### ", e$TASK[1]),
         paste(lapply(1:nrow(e), function(t){
           paste0(
-            "* **",
+            "* <b><big>",
             e$NAME[t],
-            "** ",
+            "</b></big> ",
             if(!is.na(e$VERSION[t]) && e$VERSION[t] != "")
               paste0("[", e$VERSION[t], "]&nbsp;"),
             if(!is.na(e$VERSION_DATE[t]) && e$VERSION_DATE[t] != "")
               paste0("[", e$VERSION_DATE[t], "]&nbsp;"),
             if(e$OPEN_SOURCE[t])
-              "<img width=13px src='images/osi_logo.png'/>&nbsp;",
-            paste0("<img width=60px src='images/badges_",e$TYPE[t],".svg' />"),
+              "<img width=22px src='images/osi_logo.png'/>&nbsp;",
+            paste0("<img width=79px src='images/badges_",e$TYPE[t],".svg' />"),
             "&nbsp;",
-            paste0("<img width=60px src='images/badges_sta_",e$STATUS[t],".svg' />"),
+            paste0("<img width=70px src='images/badges_sta_",e$STATUS[t],".svg' />"),
             "&nbsp;",
-            if(e$WIN[t]) "<img width=20px src='images/badges_WIN.svg' />",
-            if(e$MAC[t]) "<img width=20px src='images/badges_MAC.svg' />",
-            if(e$LIN[t]) "<img width=20px src='images/badges_LIN.svg' />",
+            if(e$WIN[t]) "![](https://img.shields.io/badge/-WIN-lightgrey.svg)&nbsp;",
+            if(e$MAC[t]) "![](https://img.shields.io/badge/-MAC-lightgrey.svg)&nbsp;",
+            if(e$LIN[t]) "![](https://img.shields.io/badge/-LIN-lightgrey.svg)&nbsp;",
             "\n <br />",
             e$DESCRIPTION[t],
             "\n <br />",
             if(e$URL_CHECK[t]){
-              "<img width=20px src='images/badges_url_valid.svg' /> "
+              "![](https://img.shields.io/badge/-URL-lightgrey.svg)&nbsp;"
             }else{
-              "<img width=20px src='images/badges_url_error.svg' /> "
+              "![](https://img.shields.io/badge/-URL-red.svg)&nbsp;"
             },
             e$URL[t],
             "\n",
@@ -169,7 +169,7 @@ if(length(id_missing) > 0)
               paste0("| Source code: ", e$SOURCE_CODE_URL[t], "\n"),
 
             if(!is.na(e$DOI[t]) && e$DOI[t] != "")
-              paste0("[![](https://img.shields.io/static/v1.svg?label=DOI&message=",e$DOI[t],"&color=blue)](https://doi.org/",e$DOI[t],")", "\n"),
+              paste0("[![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=",e$DOI[t],"&color=blue)](https://doi.org/",e$DOI[t],")", "\n"),
 
             if(!is.na(e$CITATION[t]) && e$CITATION[t] != "")
               paste0("<br /> *<small>", e$CITATION[t], "</small>*"),

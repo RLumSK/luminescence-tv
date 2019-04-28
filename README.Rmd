@@ -92,6 +92,7 @@ Total number of listed tools: `r nrow(df)`
 |[0.1]            | Indicates the latest available version, here 0.1 |
 |<img width=13px src='images/osi_logo.png'/> | This software is open source |
 |<img width=60px src='images/badges_r_package.svg'/> | Type of software (here: R package) |
-|<img width=20px src='images/badges_LIN.svg'/> | Supported operating system, here: Linux |
+
+Some of the badges are created using https://shields.io.
 
 
