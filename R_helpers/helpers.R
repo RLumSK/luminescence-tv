@@ -114,7 +114,11 @@ if(length(id_missing) > 0)
       date <- temp$all_headers[[1]]$headers$`last-modified`
 
       ##write to df
-      df[["VERSION_DATE"]][i] <- date
+      if(!is.null(date)){
+        df[["VERSION_DATE"]][i] <- date
+      }else{
+        warning(temp, immediate. = TRUE, call. = FALSE)
+      }
     }
 
     return(df)
@@ -163,6 +167,9 @@ if(length(id_missing) > 0)
 
             if(!is.na(e$SOURCE_CODE_URL[t]) && e$SOURCE_CODE_URL[t] != "")
               paste0("| Source code: ", e$SOURCE_CODE_URL[t], "\n"),
+
+            if(!is.na(e$DOI[t]) && e$DOI[t] != "")
+              paste0("[![](https://img.shields.io/static/v1.svg?label=DOI&message=",e$DOI[t],"&color=blue)](https://doi.org/",e$DOI[t],")", "\n"),
 
             if(!is.na(e$CITATION[t]) && e$CITATION[t] != "")
               paste0("<br /> *<small>", e$CITATION[t], "</small>*"),

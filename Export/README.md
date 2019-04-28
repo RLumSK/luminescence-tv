@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-04-19)
+(last update: 2019-04-28)
 
 
 
@@ -31,7 +31,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 34
+Total number of listed tools: 35
 
 ### Age calculation
 
@@ -124,8 +124,8 @@ Total number of listed tools: 34
     <https://chronomodel.com> | Source code:
     <https://github.com/Chronomodel/chronomodel>
     <hr/>
-  - **mcmcSAM** \[Mon, 07 Jan 2019 14:17:22
-    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **mcmcSAM**
+    <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -204,10 +204,31 @@ Total number of listed tools: 34
     <https://CRAN.R-project.org/package=RCarb>
     <hr/>
 
+### Dosimetry
+
+  - **gamma**
+    \[0.1\] \[2019-04-26\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    <br />gamma is intended to process in-situ gamma-ray spectrometry
+    measurements for luminescence dating. This package allows to import,
+    inspect and (automatically) correct the energy scale of the
+    spectrum. It provides methods for estimating the gamma dose rate by
+    the use of a calibration curve. This package only supports Canberra
+    CNF and TKA files.
+    <br /><img width=20px src='images/badges_url_valid.svg' />
+    <http://gamma.archaeo.science> | Source code:
+    <https://github.com/crp2a/gamma>
+    [![](https://img.shields.io/static/v1.svg?label=DOI&message=10.5281/zenodo.2652393&color=blue)](https://doi.org/10.5281/zenodo.2652393)
+    <br /> *<small>Frerebeau, N, Lebrun, B., Guérin, G., Lahaye, C.,
+    2019. gamma: Dose Rate Estimation from In-Situ Gamma-Ray
+    Spectrometry Measurements for Luminescence Dating.
+    <http://gamma.archaeo.science>,
+    <http://github.com/crp2a/gamma>.</small>*
+    <hr/>
+
 ### ESR data analysis
 
-  - **ESR** \[Fri, 18 Jan 2019 12:31:54
-    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **ESR**
+    <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br /><img width=20px src='images/badges_url_valid.svg' />
@@ -227,8 +248,8 @@ Total number of listed tools: 34
 
 ### Gamma-ray spectrometry
 
-  - **gammaSpec** \[Fri, 18 Jan 2019 15:13:50
-    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **gammaSpec**
+    <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_scripts.svg' /> <img width=60px src='images/badges_sta_devel.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of functions to analyse gamma-ray spectra
     <br /><img width=20px src='images/badges_url_valid.svg' />
     <https://github.com/tzerk/gammaSpec>
@@ -253,7 +274,7 @@ Total number of listed tools: 34
     <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
   - **Luminescence**
-    \[0.8.6\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+    \[0.9.0.110\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />A collection of various R functions for the purpose of
     Luminescence dating data analysis. This includes, amongst others,
     data import, export, application of age models, curve deconvolution,
@@ -361,8 +382,8 @@ Total number of listed tools: 34
 
 ### Modelling
 
-  - **KMS** \[Wed, 11 Jul 2018 01:41:12
-    GMT\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
+  - **KMS**
+    \[2018-07-11\] <img width=13px src='images/osi_logo.png'/> <img width=60px src='images/badges_r_package.svg' /> <img width=60px src='images/badges_sta_stable.svg' /> <img width=20px src='images/badges_WIN.svg' /><img width=20px src='images/badges_MAC.svg' /><img width=20px src='images/badges_LIN.svg' />
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br /><img width=20px src='images/badges_url_valid.svg' />
