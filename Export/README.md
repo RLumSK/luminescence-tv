@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-04-28)
+(last update: 2019-05-01)
 
 
 
@@ -119,8 +119,8 @@ Total number of listed tools: 35
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://chronomodel.com>
     | Source code: <https://github.com/Chronomodel/chronomodel>
     <hr/>
-  - <b><big>mcmcSAM</b></big>
-    <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
+    GMT\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
@@ -216,8 +216,8 @@ Total number of listed tools: 35
 
 ### ESR data analysis
 
-  - <b><big>ESR</b></big>
-    <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>ESR</b></big> \[Fri, 18 Jan 2019 12:31:54
+    GMT\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/ESR>
@@ -235,8 +235,8 @@ Total number of listed tools: 35
 
 ### Gamma-ray spectrometry
 
-  - <b><big>gammaSpec</b></big>
-    <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>gammaSpec</b></big> \[Fri, 18 Jan 2019 15:13:50
+    GMT\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to analyse gamma-ray spectra
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/gammaSpec>
     <hr/>
@@ -359,8 +359,8 @@ Total number of listed tools: 35
 
 ### Modelling
 
-  - <b><big>KMS</b></big>
-    \[2018-07-11\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>KMS</b></big> \[Wed, 11 Jul 2018 01:41:12
+    GMT\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/KMS>
