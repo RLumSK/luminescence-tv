@@ -62,20 +62,28 @@ if(length(id_missing) > 0)
 
 ##++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##check the URLs
-.url_check <- function(x){
+.url_check <- function(x, verbose = FALSE){
   for(i in 1:nrow(x)){
    test <- try(httr::http_status(httr::GET(x$URL[i])), silent = TRUE)
 
    if(class(test) != "try-error" && test$reason == "OK"){
     x[["URL_CHECK"]][i] <- TRUE
-    RLumBuild:::.success(paste0("#",i,": ", x$URL[i]))
-    cat("\n")
+
+    if(verbose){
+      RLumBuild:::.success(paste0("#",i,": ", x$URL[i]))
+      cat("\n")
+    }
 
    }else{
      x[["URL_CHECK"]][i] <- FALSE
-     RLumBuild:::.failure(paste0("#",i,": ", x$URL[i]))
+
+     if(verbose){
+       RLumBuild:::.failure(paste0("#",i,": ", x$URL[i]))
+       cat("\n")
+     }
+
      warning(paste0("#",i,": ", x$URL[i], " URL TEST FAILED!"), call. = FALSE)
-     cat("\n")
+
 
    }
 

@@ -58,9 +58,9 @@ df <- suppressWarnings(
   )
 ```
 
-```{r, echo = FALSE, warning = FALSE, message=FALSE}
+```{r, echo=FALSE, warning = FALSE, message=FALSE, prompt=FALSE}
 ##check URL
-df <- .url_check(df)
+df <- .url_check(df, verbose = FALSE)
 
 ##check for version and description
 df <- .fill_description(df)
