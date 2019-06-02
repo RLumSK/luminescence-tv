@@ -7,7 +7,7 @@
 
 # Load packages -------------------------------------------------------------------------------
 ##define needed packages
-packages <- c("rvest", "xml2", "httr", "shiny")
+packages <- c("rvest", "xml2", "httr", "shiny", "RLumBuild")
 
 ##if not installed, grep them
 id_missing <- which(!packages %in% installed.packages()[,"Package"])
@@ -64,12 +64,18 @@ if(length(id_missing) > 0)
 ##check the URLs
 .url_check <- function(x){
   for(i in 1:nrow(x)){
-   if(httr::http_status(httr::GET(x$URL[i]))$reason == "OK"){
+   test <- try(httr::http_status(httr::GET(x$URL[i])), silent = TRUE)
+
+   if(class(test) != "try-error" && test$reason == "OK"){
     x[["URL_CHECK"]][i] <- TRUE
+    RLumBuild:::.success(paste0("#",i,": ", x$URL[i]))
+    cat("\n")
 
    }else{
      x[["URL_CHECK"]][i] <- FALSE
-     warning(x$URL[i], " invalid!", call. = FALSE, immediate. = TRUE)
+     RLumBuild:::.failure(paste0("#",i,": ", x$URL[i]))
+     warning(paste0("#",i,": ", x$URL[i], " URL TEST FAILED!"), call. = FALSE)
+     cat("\n")
 
    }
 
