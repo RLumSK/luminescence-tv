@@ -1,0 +1,419 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Trapped Charge Data Analysis: Task View},
+            pdfauthor={Sebastian Kreutzer},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Trapped Charge Data Analysis: Task View}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Sebastian Kreutzer}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{(last update: 2019-06-10)}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+\maketitle
+
+\hypertarget{about}{%
+\section{About}\label{about}}
+
+In analogy of the \href{https://cran.rstudio.com/web/views/}{CRAN task view lists},
+this list provides an overview of freely available tools for trapped charge (dating) data analysis (e.g., luminescence and ESR data). Tasks, software tools and data repositories are ordered alphabetically. URLs are automatically tested every time this list is updated, information from R packages are extracted and updated automatically from \href{https://cloud.r-project.org}{CRAN} (version, description).
+
+Not listed are:
+
+\begin{itemize}
+\tightlist
+\item
+  Single scripts (e.g., functions or XLS-sheets usually without a dedicated name)
+\item
+  Software not accessible free of charge through the internet
+\end{itemize}
+
+If \textbf{your software is missing} or you did spot a mistake, please let me know via \url{https://github.com/RLumSK/luminescence-tv/issues}.
+
+\hypertarget{mission-tasks}{%
+\section{Mission tasks}\label{mission-tasks}}
+
+Total number of listed tools: 35
+
+\hypertarget{age-calculation}{%
+\subsubsection{Age calculation}\label{age-calculation}}
+
+\begin{itemize}
+\tightlist
+\item
+  AGE {[}2009-11-14{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Program for the calculation of luminescence ages estimates
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip}
+  \emph{\url{http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_p45-46.pdf}}
+\item
+  DRAC {[}1.2{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Online dose rate and luminescence age calculator
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://www.aber.ac.uk/en/dges/research/quaternary/luminescence-research-laboratory/dose-rate-calculator/}
+  \emph{Durcan, J.A., King, G.E., Duller, G.A.T., 2015. DRAC: Dose Rate and Age Calculator for trapped charge dating. Quaternary Geochronology 28, 54--61. doi: \url{https://doi.org/10.1016/j.quageo.2015.03.012}}
+\item
+  DRc ~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Dose Rate Calculator for luminescence and ESR Dating (Java application)
+  \includegraphics{https://img.shields.io/badge/-URL-red.svg}~\url{http://www.ims.demokritos.gr/download/}
+  \emph{Tsakalos, E., Christodoulakis, J., Charalambous, L., 2015. The Dose Rate Calculator (DRc) for Luminescence and ESR Dating-a Java Application for Dose Rate and Age Determination. Archaeometry 58, 347--352. doi: \url{https://doi.org/10.1111/arcm.12162}}
+\end{itemize}
+
+\hypertarget{chronological-modelling}{%
+\subsubsection{Chronological modelling}\label{chronological-modelling}}
+
+\begin{itemize}
+\tightlist
+\item
+  ArchaeoChron {[}0.1{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Provides a list of functions for the Bayesian modeling of archaeological chronologies. The Bayesian models are implemented in `JAGS' (`JAGS' stands for Just Another Gibbs Sampler. It is a program for the analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. See \url{http://mcmc-jags.sourceforge.net/} and ``JAGS Version 4.3.0 user manual'', Martin Plummer (2017) \url{https://sourceforge.net/projects/mcmc-jags/files/Manuals/}.). The inputs are measurements with their associated standard deviations and the study period. The output is the MCMC sample of the posterior distribution of the event date with or without radiocarbon calibration.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=ArchaeoChron}
+\item
+  ArchaeoPhases {[}1.4{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Provides a list of functions for the statistical analysis of archaeological dates and groups of dates. It is based on the post-processing of the Markov Chains whose stationary distribution is the posterior distribution of a series of dates. Such output can be simulated by different applications as for instance `ChronoModel' (see \url{http://www.chronomodel.fr}), `Oxcal' (see \url{https://c14.arch.ox.ac.uk/oxcal.html}) or `BCal' (see \url{http://bcal.shef.ac.uk/}). The only requirement is to have a csv file containing a sample from the posterior distribution.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=ArchaeoPhases}
+  \emph{Philippe, A., Vibet, M.-A., 2018. Analysis of Archaeological Phases using the CRAN Package ArchaeoPhases. Journal of Statistical Software 1--26. doi: \url{https://doi.org/10.18637/jss.v000.i00}}
+\item
+  BayLum {[}0.1.3{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Bayesian analysis of luminescence data and C-14 age estimates. Bayesian models are based on the following publications: Combes, B. \& Philippe, A. (2017) \url{doi:10.1016/j.quageo.2017.02.003} and Combes et al (2015) \url{doi:10.1016/j.quageo.2015.04.001}. This includes, amongst others, data import, export, application of age models and palaeodose model.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=BayLum}
+  \emph{Philippe, A., Guérin, G., Kreutzer, S., 2019. BayLum - An R package for Bayesian analysis of OSL ages: An introduction. Quaternary Geochronology 49, 16--24. doi: \url{https://doi.org/10.1016/j.quageo.2018.05.009}}
+\item
+  ChronoModel {[}2.0.18{]}~{[}2019-02-01{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Chronological Modelling of Archaeological Data using Bayesian Statistics with an advanced graphical user interface
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://chronomodel.com}
+  \textbar{} Source code: \url{https://github.com/Chronomodel/chronomodel}
+\item
+  mcmcSAM {[}Mon, 07 Jan 2019 14:17:22 GMT{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Analyzing statistical age models for equivalent dose and burial age determination using a Markov Chain Monte Carlo method
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://github.com/pengjunUCAS/mcmcSAM}
+\item
+  RChronoModel {[}0.4{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~
+  Provides a list of functions for the statistical analysis and the post-processing of the Markov Chains simulated by ChronoModel (see \url{http://www.chronomodel.fr} for more information). ChronoModel is a friendly software to construct a chronological model in a Bayesian framework. Its output is a sampled Markov chain from the posterior distribution of dates component the chronology. The functions can also be applied to the analyse of mcmc output generated by Oxcal software.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=RChronoModel}
+  \emph{Philippe, A., Vibet, M.-A., 2017. Analysis of Archaeological Phases using the CRAN Package RChronoModel. doi: \url{https://doi.org/10.13140/RG.2.2.19659.59688}}
+\end{itemize}
+
+\hypertarget{data-mining}{%
+\subsubsection{Data mining}\label{data-mining}}
+
+\begin{itemize}
+\tightlist
+\item
+  INQUA Dunes Atlas ~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Collection of luminescence ages from sand dunes world wide
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://www.dri.edu/inquadunesatlas}
+  \emph{Lancaster, N., Wolfe, S., Thomas, D., Bristow, C., Bubenzer, O., Burrough, S., Duller, G., Halfen, A., Hesse, P., Roskin, J., Singhvi, A., Tsoar, H., Tripaldi, A., Yang, X., Zárate, M., 2015. The INQUA Dunes Atlas chronologic database. Quaternary International 410, 3--10. doi: \url{https://doi.org/10.1016/j.quaint.2015.10.044}}
+\item
+  OCTOPUS ~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Open cosmogenic nuclide and luminescence data database
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://earth.uow.edu.au}
+  \emph{Codilean, A.T., Munack, H., Cohen, T.J., Saktura, W.M., Gray, A., Mudd, S.M., 2018. OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data 10, 2123--2139. doi: \url{https://doi.org/10.5194/essd-10-2123-2018}}
+\end{itemize}
+
+\hypertarget{dose-rate-modelling}{%
+\subsubsection{Dose rate modelling}\label{dose-rate-modelling}}
+
+\begin{itemize}
+\tightlist
+\item
+  DosiVox {[}2018-12-03{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A Geant 4-based software for dosimetry simulations relevant to luminescence and ESR dating techniques
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144\&lang=fr}
+  \emph{Martin, L., Incerti, S., Mercier, N., 2015. DosiVox: Implementing Geant 4-based software for dosimetry simulations relevant to luminescence and ESR dating techniques. Ancient TL 33, 1--10. \url{http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Martin_p1-10.pdf}}
+\item
+  DosiVox2D {[}2018-12-03{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A Geant 4-based software for dosimetry simulations relevant to luminescence and ESR dating techniques; simplified version in comparison to DosiVox
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144\&lang=fr}
+\item
+  RCarb {[}0.1.3{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Translation of the `MATLAB' program `Carb' (Nathan and Mauz 2008 \url{doi:10.1016/j.radmeas.2007.12.012}; Mauz and Hoffmann 2014) for dose rate modelling for carbonate-rich samples in the context of trapped charged dating (e.g., luminescence dating) applications.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=RCarb}
+\end{itemize}
+
+\hypertarget{dosimetry}{%
+\subsubsection{Dosimetry}\label{dosimetry}}
+
+\begin{itemize}
+\tightlist
+\item
+  gamma {[}0.1{]}~{[}2019-04-26{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  gamma is intended to process in-situ gamma-ray spectrometry measurements for luminescence dating. This package allows to import, inspect and (automatically) correct the energy scale of the spectrum. It provides methods for estimating the gamma dose rate by the use of a calibration curve. This package only supports Canberra CNF and TKA files.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://gamma.archaeo.science}
+  \textbar{} Source code: \url{https://github.com/crp2a/gamma}
+  \href{https://doi.org/10.5281/zenodo.2652393}{\includegraphics{https://img.shields.io/static/v1.svg?style=flat\&label=DOI\&message=10.5281/zenodo.2652393\&color=blue}}
+  \emph{Frerebeau, N, Lebrun, B., Guérin, G., Lahaye, C., 2019. gamma: Dose Rate Estimation from In-Situ Gamma-Ray Spectrometry Measurements for Luminescence Dating. \url{http://gamma.archaeo.science}, \url{http://github.com/crp2a/gamma}.}
+\end{itemize}
+
+\hypertarget{esr-data-analysis}{%
+\subsubsection{ESR data analysis}\label{esr-data-analysis}}
+
+\begin{itemize}
+\tightlist
+\item
+  ESR {[}Fri, 18 Jan 2019 12:31:54 GMT{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  R package ESR for plotting and analysing ESR spectra in dating applications
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://github.com/tzerk/ESR}
+\item
+  MCDoseE ~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~
+  Dose response curve fitting, dose evaluation for ESR dating
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.sciencedirect.com/science/article/pii/S1871101417300626?via\%3Dihub}
+  \emph{Joannes-Boyau, R., Duval, M., Bodin, T., 2017. MCDoseE 2.0 A new Markov Chain Monte Carlo program for ESR dose response curve fitting and dose evaluation. Quaternary Geochronology 44, 1--25. doi: \url{https://doi.org/10.1016/j.quageo.2017.11.003}}
+\end{itemize}
+
+\hypertarget{gamma-ray-spectrometry}{%
+\subsubsection{Gamma-ray spectrometry}\label{gamma-ray-spectrometry}}
+
+\begin{itemize}
+\tightlist
+\item
+  gammaSpec {[}Fri, 18 Jan 2019 15:13:50 GMT{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A collection of functions to analyse gamma-ray spectra
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://github.com/tzerk/gammaSpec}
+\item
+  rxylib {[}0.2.4{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Provides access to the `xylib' C library for to import xy
+  data from powder diffraction, spectroscopy and other experimental methods.
+  \includegraphics{https://img.shields.io/badge/-URL-red.svg}~\url{https://CRAN.R-project.org/package=rxylib}
+\end{itemize}
+
+\hypertarget{luminescence-data-analysis}{%
+\subsubsection{Luminescence data analysis}\label{luminescence-data-analysis}}
+
+\begin{itemize}
+\tightlist
+\item
+  Analyst {[}4.57{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  The standard programme to analyse luminescence data
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{http://users.aber.ac.uk/ggd/}
+  \emph{Duller, G.A.T., 2015. The Analyst software package for luminescence data: overview and recent improvements. Ancient TL 33, 35--42. \url{http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf}}
+\item
+  Luminescence {[}0.9.0.110{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A collection of various R functions for the purpose of Luminescence
+  dating data analysis. This includes, amongst others, data import, export,
+  application of age models, curve deconvolution, sequence analysis and
+  plotting of equivalent dose distributions.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=Luminescence}
+  \emph{Kreutzer, S., Schmidt, C., Fuchs, M.C., Dietze, M., Fischer, M., Fuchs, M., 2012. Introducing an R package for luminescence dating analysis. Ancient TL 30, 1--8. \url{http://ancienttl.org/ATL_30-1_2012/ATL_30-1_Kreutzer_p1-8.pdf}}
+\item
+  numOSL {[}2.6{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Package for optimizing regular numeric problems in optically stimulated luminescence
+  dating, such as: equivalent dose calculation, dose rate determination, growth curve fitting,
+  decay curve decomposition, statistical age model optimization, and statistical plot visualization.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=numOSL}
+  \emph{Peng, J., Dong, Z., Han, F., Long, H., Liu, X., 2013. R package numOSL: numeric routines for optically stimulated luminescence dating. Ancient TL 31, 41--48. \url{http://ancienttl.org/ATL_31-2_2013/ATL_31-2_Peng_p41-48.pdf}}
+\item
+  PTanalyse {[}1.51{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Proprietary software to analyse TR-OSL data
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software}
+  \emph{Lapp, T., Jain, M., Ankjærgaard, C., Pirtzel, L., 2009. Development of pulsed stimulation and Photon Timer attachments to the Risø TL/OSL reader. Radiation Measurements 44, 571--575. doi: \url{https://doi.org/10.1016/j.radmeas.2009.01.012}}
+\item
+  RLanalyse {[}1.3{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Proprietary software to analyse radiofluorescence data (BIN/BINX-file input required)
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software}
+  \emph{Lapp, T., Jain, M., Thomsen, K.J., Murray, A.S., Buylaert, J.P., 2012. New luminescence measurement facilities in retrospective dosimetry. Radiation Measurements 47, 803--808. doi: \url{https://doi.org/10.1016/j.radmeas.2012.02.006}}
+\item
+  tgcd {[}2.1{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Deconvolving thermoluminescence glow curves according to various
+  kinetic models (first-order, second-order, general-order, and mixed-order) using
+  a modified Levenberg-Marquardt algorithm. It provides the possibility of setting
+  constraints or fixing any of parameters. It offers an interactive way to initialize
+  parameters by clicking with a mouse on a plot at positions where peak maxima should
+  be located. The optimal estimate is obtained by ``trial-and-error''. It also provides
+  routines for simulating first-order, second-order, and general-order glow peaks.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=tgcd}
+  \emph{Peng, J., Dong, Z., Han, F., 2016. tgcd: An R package for analyzing thermoluminescence glow curves. SoftwareX 1--9. doi: \url{https://doi.org/10.1016/j.softx.2016.06.001}}
+\item
+  TLdating {[}0.1.3{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A series of function to make thermoluminescence dating using the MAAD or the SAR protocol.
+  This package completes the R package ``Luminescence.''
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=TLdating}
+  \emph{Strebler, D., Burow, C., Brill, D., Brückner, H., 2017. Using R for TL dating. Quaternary Geochronology 37, 97--107. doi: \url{https://doi.org/10.1016/j.quageo.2016.09.001}}
+\end{itemize}
+
+\hypertarget{luminescence-data-visualisation}{%
+\subsubsection{Luminescence data visualisation}\label{luminescence-data-visualisation}}
+
+\begin{itemize}
+\tightlist
+\item
+  Viewer {[}4.4{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Proprietary software to visualise luminescence data recorded in BIN/BINX-files
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software}
+  \emph{ }
+\item
+  Viewer+ {[}1.43{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Proprietary software to visualise luminescence data recorded in BIN/BINX-files; sucessor of Viewer
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software}
+  \emph{ }
+\end{itemize}
+
+\hypertarget{miscellaneous}{%
+\subsubsection{Miscellaneous}\label{miscellaneous}}
+
+\begin{itemize}
+\tightlist
+\item
+  XRFanalyse {[}1.12{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~
+  Proprietary software to analyse XRF data recorded with a Risø OSL/TL attachement
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.nutech.dtu.dk/english/products-and-services/radiation-instruments/tl_osl_reader/software}
+  \emph{ }
+\end{itemize}
+
+\hypertarget{modelling}{%
+\subsubsection{Modelling}\label{modelling}}
+
+\begin{itemize}
+\tightlist
+\item
+  KMS {[}Wed, 11 Jul 2018 01:41:12 GMT{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Collection of functions to simulate kinetic models for quartz luminescence production
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://github.com/pengjunUCAS/KMS}
+  \emph{Peng, J., Pagonis, V., 2016. Simulating comprehensive kinetic models for quartz luminescence using the R program KMS. Radiation Measurements 86, 63--70. doi: \url{https://doi.org/10.1016/j.radmeas.2016.01.022}}
+\item
+  RLumModel {[}0.2.3{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A collection of functions to simulate luminescence signals in quartz and Al2O3 based on published models.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=RLumModel}
+  \emph{Friedrich, J., Kreutzer, S., Schmidt, C., 2016. Solving ordinary differential equations to understand luminescence: ``RLumModel'' an advanced research tool for simulating luminescence in quartz using R. Quaternary Geochronology 35, 88--100. doi: \url{https://doi.org/10.1016/j.quageo.2016.05.004}}
+\end{itemize}
+
+\hypertarget{plotting}{%
+\subsubsection{Plotting}\label{plotting}}
+
+\begin{itemize}
+\tightlist
+\item
+  RLumShiny {[}0.2.2{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A collection of `shiny' applications for the R package
+  `Luminescence'. These mainly, but not exclusively, include applications for
+  plotting chronometric data from e.g.~luminescence or radiocarbon dating. It
+  further provides access to bootstraps tooltip and popover functionality and
+  contains the `jscolor.js' library with a custom `shiny' output binding.
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=RLumShiny}
+  \emph{Burow, C., Kreutzer, S., Dietze, M., Fuchs, M.C., Fischer, M., Schmidt, C., Brückner, H., 2016. RLumShiny - A graphical user interface for the R Package 'Luminescence'. Ancient TL 34, 22--32. \url{http://ancienttl.org/ATL_34-2_2016/ATL_34-2_Burow_p22-32.pdf}}
+\end{itemize}
+
+\hypertarget{teaching}{%
+\subsubsection{Teaching}\label{teaching}}
+
+\begin{itemize}
+\tightlist
+\item
+  LumReader {[}0.1.0{]}~{[}2017-01-27{]}~~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  A series of functions to estimate the detection windows of a luminescence reader based on the filters and the photomultiplier (PMT) selected. These functions also allow to simulate a luminescence experiment based on the thermoluminesce (TL) or the optically stimulated luminescence (OSL) properties of a material
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://CRAN.R-project.org/package=LumReader}
+\end{itemize}
+
+\hypertarget{visualisation}{%
+\subsubsection{Visualisation}\label{visualisation}}
+
+\begin{itemize}
+\tightlist
+\item
+  DensityPlotter {[}8.4{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Java application for Kernel Density Estimation plots
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.ucl.ac.uk/~ucfbpve/densityplotter/}
+  \emph{Vermeesch, P., 2012. On the visualisation of detrital age distributions. Chemical Geology, 312-313, 190-194, doi: \url{https://doi.org/10.1016/j.chemgeo.2012.04.021}}
+\item
+  RadialPlotter {[}9.4{]}~~~\includegraphics{https://img.shields.io/badge/-WIN-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-MAC-lightgrey.svg}~\includegraphics{https://img.shields.io/badge/-LIN-lightgrey.svg}~
+  Java software to create radial plots
+  \includegraphics{https://img.shields.io/badge/-URL-lightgrey.svg}~\url{https://www.ucl.ac.uk/~ucfbpve/radialplotter/}
+  \emph{Vermeesch, P., 2009, RadialPlotter: a Java application for fission track, luminescence and other radial plots, Radiation Measurements, 44 (4), 409-410. doi: \url{https://doi.org/10.1016/j.radmeas.2009.05.003}}
+\end{itemize}
+
+\hypertarget{legend}{%
+\section*{Legend}\label{legend}}
+\addcontentsline{toc}{section}{Legend}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Icon & Meaning\tabularnewline
+\midrule
+\endhead
+{[}0.1{]} & Indicates the latest available version, here 0.1\tabularnewline
+& This software is open source\tabularnewline
+& Type of software (here: R package)\tabularnewline
+\bottomrule
+\end{longtable}
+
+Some of the badges are created using \url{https://shields.io}.
+
+
+\end{document}

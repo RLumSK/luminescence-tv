@@ -82,7 +82,7 @@ if(length(id_missing) > 0)
        cat("\n")
      }
 
-     warning(paste0("#",i,": ", x$URL[i], " URL TEST FAILED!"), call. = FALSE)
+     warning(paste0("#",i," URL test failed for ", x$URL[i]), call. = FALSE)
 
 
    }
@@ -159,8 +159,7 @@ if(length(id_missing) > 0)
               paste0("[", e$VERSION[t], "]&nbsp;"),
             if(!is.na(e$VERSION_DATE[t]) && e$VERSION_DATE[t] != "")
               paste0("[", e$VERSION_DATE[t], "]&nbsp;"),
-            if(e$OPEN_SOURCE[t])
-              "<img width=22px src='images/osi_logo.png'/>&nbsp;",
+            if(e$OPEN_SOURCE[t]) "![](images/osi_logo.png)&nbsp;",
             paste0("<img width=79px src='images/badges_",e$TYPE[t],".svg' />"),
             "&nbsp;",
             paste0("<img width=70px src='images/badges_sta_",e$STATUS[t],".svg' />"),
@@ -196,4 +195,3 @@ if(length(id_missing) > 0)
     })), collapse = "\n")
 
 }
-

@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-06-02)
+(last update: 2019-06-10)
 
 
 
@@ -205,7 +205,7 @@ Total number of listed tools: 35
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144&lang=fr>
     <hr/>
   - <b><big>RCarb</b></big>
-    \[0.1.2\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.1.3\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Translation of the ‘MATLAB’ program ‘Carb’ (Nathan and Mauz
     2008 <doi:10.1016/j.radmeas.2007.12.012>; Mauz and Hoffmann 2014)
     for dose rate modelling for carbonate-rich samples in the context of
@@ -260,7 +260,7 @@ Total number of listed tools: 35
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/gammaSpec>
     <hr/>
   - <b><big>rxylib</b></big>
-    \[0.2.3\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.2.4\] <img width=22px src='images/osi_logo.png'/> <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Provides access to the ‘xylib’ C library for to import xy data
     from powder diffraction, spectroscopy and other experimental
     methods.
