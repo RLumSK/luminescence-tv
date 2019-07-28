@@ -6,10 +6,10 @@ output:
   github_document: 
     toc: true
     toc_depth: 2
-  pdf_document:
-    latex_engine: pdflatex
-    keep_tex: true
-    pandoc_args: "--wrap=preserve"
+  # pdf_document:
+  #   latex_engine: pdflatex
+  #   keep_tex: true
+  #   pandoc_args: "--wrap=preserve"
   html_document: 
     toc: true
     toc_float: yes

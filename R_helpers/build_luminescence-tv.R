@@ -18,12 +18,12 @@ rmarkdown::render(
 
 
 ##RENDER PDF document
-rmarkdown::render(
-  "README.Rmd",
-  output_format = "pdf_document",
-  output_dir = "export/",
-  clean = TRUE
-)
+# rmarkdown::render(
+#   "README.Rmd",
+#   output_format = "pdf_document",
+#   output_dir = "export/",
+#   clean = TRUE
+# )
 
 
 ##RENDER MD

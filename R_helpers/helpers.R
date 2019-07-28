@@ -148,7 +148,10 @@ if(length(id_missing) > 0)
 # Render list ---------------------------------------------------------------------------------
 ##render markdown list, this gives more control
 .render_list <- function(x){
-    paste(unlist(lapply(x, function(e){
+
+
+    ##render list
+    output <- paste(unlist(lapply(x, function(e){
       c(paste("### ", e$TASK[1]),
         paste(lapply(1:nrow(e), function(t){
           paste0(
@@ -193,5 +196,8 @@ if(length(id_missing) > 0)
       )
 
     })), collapse = "\n")
+
+    ##return
+    return(output)
 
 }
