@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-07-28)
+(last update: 2019-12-04)
 
 
 
@@ -126,8 +126,9 @@ Total number of listed tools: 36
     amongst others, data import, export, application of age models and
     palaeodose model.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=BayLum>
-    <br /> *<small>Philippe, A., Guérin, G., Kreutzer, S., 2019. BayLum
-    - An R package for Bayesian analysis of OSL ages: An introduction.
+    | Source code: <https://github.com/crp2a/BayLum> <br />
+    *<small>Philippe, A., Guérin, G., Kreutzer, S., 2019. BayLum - An R
+    package for Bayesian analysis of OSL ages: An introduction.
     Quaternary Geochronology 49, 16–24. doi:
     <https://doi.org/10.1016/j.quageo.2018.05.009></small>*
     <hr/>
@@ -143,6 +144,7 @@ Total number of listed tools: 36
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
+    | Source code: <https://github.com/pengjunUCAS/mcmcSAM>
     <hr/>
   - <b><big>RChronoModel</b></big>
     \[0.4\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) 
@@ -176,7 +178,7 @@ Total number of listed tools: 36
   - <b><big>OCTOPUS</b></big>
     <img width=79px src='images/badges_repository.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Open cosmogenic nuclide and luminescence data database
-    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://earth.uow.edu.au>
+    <br />![](https://img.shields.io/badge/-URL-red.svg) <https://earth.uow.edu.au>
     <br /> *<small>Codilean, A.T., Munack, H., Cohen, T.J., Saktura,
     W.M., Gray, A., Mudd, S.M., 2018. OCTOPUS: an open cosmogenic
     isotope and luminescence database. Earth Syst. Sci. Data 10,
@@ -211,19 +213,20 @@ Total number of listed tools: 36
     for dose rate modelling for carbonate-rich samples in the context of
     trapped charged dating (e.g., luminescence dating) applications.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=RCarb>
+    | Source code: <https://github.com/R-Lum/Rcarb>
     <hr/>
 
 ### Dosimetry
 
-  - <b><big>gamma</b></big>
-    \[0.1\] \[2019-04-26\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>gamma</b></big> \[v0.2\] \[Wed, 04 Dec 2019 17:53:44
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />gamma is intended to process in-situ gamma-ray spectrometry
     measurements for luminescence dating. This package allows to import,
     inspect and (automatically) correct the energy scale of the
     spectrum. It provides methods for estimating the gamma dose rate by
     the use of a calibration curve. This package only supports Canberra
     CNF and TKA files.
-    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://gamma.archaeo.science>
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://crp2a.github.io/gamma/>
     | Source code: <https://github.com/crp2a/gamma>
     [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.5281/zenodo.2652393&color=blue)](https://doi.org/10.5281/zenodo.2652393)
     <br /> *<small>Frerebeau, N, Lebrun, B., Guérin, G., Lahaye, C.,
@@ -240,6 +243,7 @@ Total number of listed tools: 36
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/ESR>
+    | Source code: <https://github.com/tzerk/ESR>
     <hr/>
   - <b><big>MCDoseE</b></big>
     <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) 
@@ -258,6 +262,7 @@ Total number of listed tools: 36
     GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to analyse gamma-ray spectra
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/gammaSpec>
+    | Source code: <https://github.com/tzerk/gammaSpec>
     <hr/>
   - <b><big>rxylib</b></big>
     \[0.2.4\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
@@ -265,6 +270,7 @@ Total number of listed tools: 36
     from powder diffraction, spectroscopy and other experimental
     methods.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=rxylib>
+    | Source code: <https://github.com/R-Lum/rxylib>
     <hr/>
 
 ### Luminescence data analysis
@@ -278,8 +284,8 @@ Total number of listed tools: 36
     33, 35–42.
     <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
-  - <b><big>LDAC</b></big>
-    \[1.0\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+  - <b><big>LDAC</b></big> \[v1.0\] \[Mon, 12 Aug 2019 02:55:01
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />A Microsoft Excel Visual Basic for Application (VBA)-based
     package which can be used to assemble OSL age information and
     associated calculations. This platform applies statistical models to
@@ -292,15 +298,16 @@ Total number of listed tools: 36
     | Source code: <https://github.com/Peng-Liang/LDAC>
     <hr/>
   - <b><big>Luminescence</b></big>
-    \[0.9.0.110\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.9.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of various R functions for the purpose of
     Luminescence dating data analysis. This includes, amongst others,
     data import, export, application of age models, curve deconvolution,
     sequence analysis and plotting of equivalent dose distributions.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=Luminescence>
-    <br /> *<small>Kreutzer, S., Schmidt, C., Fuchs, M.C., Dietze, M.,
-    Fischer, M., Fuchs, M., 2012. Introducing an R package for
-    luminescence dating analysis. Ancient TL 30, 1–8.
+    | Source code: <https://github.com/R-Lum/Luminescence> <br />
+    *<small>Kreutzer, S., Schmidt, C., Fuchs, M.C., Dietze, M., Fischer,
+    M., Fuchs, M., 2012. Introducing an R package for luminescence
+    dating analysis. Ancient TL 30, 1–8.
     <http://ancienttl.org/ATL_30-1_2012/ATL_30-1_Kreutzer_p1-8.pdf></small>*
     <hr/>
   - <b><big>numOSL</b></big>
@@ -336,16 +343,17 @@ Total number of listed tools: 36
     <https://doi.org/10.1016/j.radmeas.2012.02.006></small>*
     <hr/>
   - <b><big>tgcd</b></big>
-    \[2.1\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[2.3\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Deconvolving thermoluminescence glow curves according to
     various kinetic models (first-order, second-order, general-order,
-    and mixed-order) using a modified Levenberg-Marquardt algorithm. It
-    provides the possibility of setting constraints or fixing any of
-    parameters. It offers an interactive way to initialize parameters by
-    clicking with a mouse on a plot at positions where peak maxima
-    should be located. The optimal estimate is obtained by
-    “trial-and-error”. It also provides routines for simulating
-    first-order, second-order, and general-order glow peaks.
+    and mixed-order) using a modified Levenberg-Marquardt algorithm
+    (More, 1978) <doi:10.1007/BFb0067700>. It provides the possibility
+    of setting constraints or fixing any of parameters. It offers an
+    interactive way to initialize parameters by clicking with a mouse on
+    a plot at positions where peak maxima should be located. The optimal
+    estimate is obtained by “trial-and-error”. It also provides routines
+    for simulating first-order, second-order, and general-order glow
+    peaks.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=tgcd>
     <br /> *<small>Peng, J., Dong, Z., Han, F., 2016. tgcd: An R package
     for analyzing thermoluminescence glow curves. SoftwareX 1–9. doi:
@@ -357,9 +365,10 @@ Total number of listed tools: 36
     the MAAD or the SAR protocol. This package completes the R package
     “Luminescence.”
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=TLdating>
-    <br /> *<small>Strebler, D., Burow, C., Brill, D., Brückner, H.,
-    2017. Using R for TL dating. Quaternary Geochronology 37, 97–107.
-    doi: <https://doi.org/10.1016/j.quageo.2016.09.001></small>*
+    | Source code: <https://github.com/dstreble/Tldating> <br />
+    *<small>Strebler, D., Burow, C., Brill, D., Brückner, H., 2017.
+    Using R for TL dating. Quaternary Geochronology 37, 97–107. doi:
+    <https://doi.org/10.1016/j.quageo.2016.09.001></small>*
     <hr/>
 
 ### Luminescence data visualisation
@@ -396,18 +405,20 @@ Total number of listed tools: 36
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/KMS>
-    <br /> *<small>Peng, J., Pagonis, V., 2016. Simulating comprehensive
+    | Source code: <https://github.com/pengjunUCAS/KMS> <br />
+    *<small>Peng, J., Pagonis, V., 2016. Simulating comprehensive
     kinetic models for quartz luminescence using the R program KMS.
     Radiation Measurements 86, 63–70. doi:
     <https://doi.org/10.1016/j.radmeas.2016.01.022></small>*
     <hr/>
   - <b><big>RLumModel</b></big>
-    \[0.2.3\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.2.4\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to simulate luminescence signals in
     quartz and Al2O3 based on published models.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=RLumModel>
-    <br /> *<small>Friedrich, J., Kreutzer, S., Schmidt, C., 2016.
-    Solving ordinary differential equations to understand luminescence:
+    | Source code: <https://github.com/R-Lum/RLumModel> <br />
+    *<small>Friedrich, J., Kreutzer, S., Schmidt, C., 2016. Solving
+    ordinary differential equations to understand luminescence:
     “RLumModel” an advanced research tool for simulating luminescence
     in quartz using R. Quaternary Geochronology 35, 88–100. doi:
     <https://doi.org/10.1016/j.quageo.2016.05.004></small>*
@@ -424,10 +435,10 @@ Total number of listed tools: 36
     tooltip and popover functionality and contains the ‘jscolor.js’
     library with a custom ‘shiny’ output binding.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=RLumShiny>
-    <br /> *<small>Burow, C., Kreutzer, S., Dietze, M., Fuchs, M.C.,
-    Fischer, M., Schmidt, C., Brückner, H., 2016. RLumShiny - A
-    graphical user interface for the R Package ’Luminescence’. Ancient
-    TL 34, 22–32.
+    | Source code: <https://github.com/tzerk/RLumShiny> <br />
+    *<small>Burow, C., Kreutzer, S., Dietze, M., Fuchs, M.C., Fischer,
+    M., Schmidt, C., Brückner, H., 2016. RLumShiny - A graphical user
+    interface for the R Package ’Luminescence’. Ancient TL 34, 22–32.
     <http://ancienttl.org/ATL_34-2_2016/ATL_34-2_Burow_p22-32.pdf></small>*
     <hr/>
 
@@ -441,6 +452,7 @@ Total number of listed tools: 36
     luminescence experiment based on the thermoluminesce (TL) or the
     optically stimulated luminescence (OSL) properties of a material
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=LumReader>
+    | Source code: <https://github.com/dstreble/LumReader>
     <hr/>
 
 ### Visualisation

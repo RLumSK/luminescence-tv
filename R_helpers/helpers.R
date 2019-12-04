@@ -109,29 +109,36 @@ if(length(id_missing) > 0)
 #' @param df [data.frame]
 .last_GitHubcommit <- function(df){
   ##extract all GitHub software
-  id <- grep(pattern = "https://github.com/", x = df[["URL"]], fixed = TRUE)
+  id <- grep(pattern = "github", x = df[["URL"]], fixed = TRUE)
 
   ##roll
   if(length(id) != 0){
     ##run over URLs
     for(i in id){
-      ##set url
-      url <- paste0(
-        "https://api.github.com/repos/",
-         strsplit(x = df[["URL"]][i], split = "https://github.com/", fixed = TRUE)[[1]][2],
-        "/commits?per_page=1")
+      URL <- df[["SOURCE_CODE_URL"]][i]
+      REPO <- regmatches(URL, regexec("(?<=https://github.com/).+", URL, perl = TRUE))[[1]]
+
+      ##set urls
+      date_url <- paste0("https://api.github.com/repos/", REPO,"/commits?per_page=1")
+      version_url <- paste0("https://api.github.com/repos/",REPO, "/tags")
 
       ##get information
-      temp <- httr::GET(url,httr::accept_json())
+      temp_date <- httr::GET(date_url,httr::accept_json())
+      temp_version <- httr::GET(version_url,httr::accept_json())
 
-      # ##extract data
-      date <- temp$all_headers[[1]]$headers$`last-modified`
+      ##extract data
+      date <- temp_date$all_headers[[1]]$headers$`last-modified`
+      version <- jsonlite::parse_json(temp_version)
 
       ##write to df
       if(!is.null(date)){
         df[["VERSION_DATE"]][i] <- date
+
+        if(length(version) > 0)
+          df[["VERSION"]][i] <- version[[1]]$name
+
       }else{
-        warning(temp, immediate. = TRUE, call. = FALSE)
+        warning(date, immediate. = TRUE, call. = FALSE)
       }
     }
 
