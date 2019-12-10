@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2019-12-04)
+(last update: 2019-12-10)
 
 
 
@@ -74,7 +74,7 @@ Total number of listed tools: 36
     <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />Dose Rate Calculator for luminescence and ESR Dating (Java
     application)
-    <br />![](https://img.shields.io/badge/-URL-red.svg) <http://www.ims.demokritos.gr/download/>
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://www.dropbox.com/s/nvn6n68lt4to8ur/DRcalculator.exe?dl=0>
     <br /> *<small>Tsakalos, E., Christodoulakis, J., Charalambous, L.,
     2015. The Dose Rate Calculator (DRc) for Luminescence and ESR
     Dating-a Java Application for Dose Rate and Age Determination.
@@ -178,7 +178,7 @@ Total number of listed tools: 36
   - <b><big>OCTOPUS</b></big>
     <img width=79px src='images/badges_repository.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Open cosmogenic nuclide and luminescence data database
-    <br />![](https://img.shields.io/badge/-URL-red.svg) <https://earth.uow.edu.au>
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://earth.uow.edu.au>
     <br /> *<small>Codilean, A.T., Munack, H., Cohen, T.J., Saktura,
     W.M., Gray, A., Mudd, S.M., 2018. OCTOPUS: an open cosmogenic
     isotope and luminescence database. Earth Syst. Sci. Data 10,
@@ -218,7 +218,7 @@ Total number of listed tools: 36
 
 ### Dosimetry
 
-  - <b><big>gamma</b></big> \[v0.2\] \[Wed, 04 Dec 2019 17:53:44
+  - <b><big>gamma</b></big> \[v0.2\] \[Wed, 04 Dec 2019 18:12:49
     GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />gamma is intended to process in-situ gamma-ray spectrometry
     measurements for luminescence dating. This package allows to import,
@@ -298,7 +298,7 @@ Total number of listed tools: 36
     | Source code: <https://github.com/Peng-Liang/LDAC>
     <hr/>
   - <b><big>Luminescence</b></big>
-    \[0.9.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.9.6\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of various R functions for the purpose of
     Luminescence dating data analysis. This includes, amongst others,
     data import, export, application of age models, curve deconvolution,
