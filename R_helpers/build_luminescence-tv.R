@@ -1,7 +1,7 @@
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## Title:   Render Output for luminescence-tv
-## Author:  Sebastian Kreutzer, IRAMAT-CRP2A, Universite Bordeaux Montaigne (France)
-## Contact: sebastian.kreutzer@u-bordeaux-montaigne.fr
+## Author:  Sebastian Kreutzer, Geography & Earth Sciences, Aberystwyth University (United Kingdom)
+## Contact: sebastian.kreutzer@aber.ac.uk
 ## Date:    Sun Dec 30 12:50:23 2018
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

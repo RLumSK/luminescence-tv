@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2020-01-31)
+(last update: 2020-06-08)
 
 
 
@@ -35,7 +35,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 36
+Total number of listed tools: 37
 
 ### Age calculation
 
@@ -86,9 +86,10 @@ Total number of listed tools: 36
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=ArchaeoChron>
     <hr/>
   - <b><big>ArchaeoPhases</b></big>
-    \[1.4\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[1.4.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Provides a list of functions for the statistical analysis of
-    archaeological dates and groups of dates. It is based on the
+    archaeological dates and groups of dates (see
+    <doi:10.18637/jss.v093.c01> for a description). It is based on the
     post-processing of the Markov Chains whose stationary distribution
     is the posterior distribution of a series of dates. Such output can
     be simulated by different applications as for instance ‘ChronoModel’
@@ -131,6 +132,17 @@ Total number of listed tools: 36
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
     | Source code: <https://github.com/pengjunUCAS/mcmcSAM>
     <hr/>
+  - <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    <br />Analyzing statistical age models for equivalent dose and
+    burial age determination using a Markov Chain Monte Carlo method
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
+    | Source code: <https://github.com/pengjunUCAS/mcmcSAM>
+    [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.1515/geochr-2015-0114&color=blue)](https://doi.org/10.1515/geochr-2015-0114)
+    <br /> *<small>Peng, J., 2020. Analyzing statistical age models to
+    determine the equivalent dose and burial age using a Markov chain
+    Monte Carlo method. Geochronometria 0, 1–14. </small>*
+    <hr/>
   - <b><big>RChronoModel</b></big>
     \[0.4\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) 
     <br />Provides a list of functions for the statistical analysis and
@@ -152,7 +164,7 @@ Total number of listed tools: 36
   - <b><big>INQUA Dunes Atlas</b></big>
     <img width=79px src='images/badges_repository.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Collection of luminescence ages from sand dunes world wide
-    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://www.dri.edu/inquadunesatlas>
+    <br />![](https://img.shields.io/badge/-URL-red.svg) <http://www.dri.edu/inquadunesatlas>
     <br /> *<small>Lancaster, N., Wolfe, S., Thomas, D., Bristow, C.,
     Bubenzer, O., Burrough, S., Duller, G., Halfen, A., Hesse, P.,
     Roskin, J., Singhvi, A., Tsoar, H., Tripaldi, A., Yang, X., Zárate,
@@ -206,7 +218,7 @@ Total number of listed tools: 36
 
 ### Dosimetry
 
-  - <b><big>gamma</b></big> \[v0.2\] \[Tue, 14 Jan 2020 10:48:38
+  - <b><big>gamma</b></big> \[v0.2\] \[Sun, 07 Jun 2020 12:17:27
     GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />gamma is intended to process in-situ gamma-ray spectrometry
     measurements for luminescence dating. This package allows to import,
@@ -272,7 +284,7 @@ Total number of listed tools: 36
     33, 35–42.
     <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
-  - <b><big>LDAC</b></big> \[v1.0\] \[Sun, 26 Jan 2020 01:16:24
+  - <b><big>LDAC</b></big> \[v1.0.1\] \[Tue, 24 Mar 2020 06:33:56
     GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />A Microsoft Excel Visual Basic for Application (VBA)-based
     package which can be used to assemble OSL age information and
@@ -334,7 +346,7 @@ Total number of listed tools: 36
     <https://doi.org/10.1016/j.radmeas.2012.02.006></small>*
     <hr/>
   - <b><big>tgcd</b></big>
-    \[2.3\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[2.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Deconvolving thermoluminescence glow curves according to
     various kinetic models (first-order, second-order, general-order,
     and mixed-order) using a modified Levenberg-Marquardt algorithm
