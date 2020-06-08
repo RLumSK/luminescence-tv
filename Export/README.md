@@ -126,11 +126,15 @@ Total number of listed tools: 37
     | Source code: <https://github.com/Chronomodel/chronomodel>
     <hr/>
   - <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
     | Source code: <https://github.com/pengjunUCAS/mcmcSAM>
+    [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.1515/geochr-2015-0114&color=blue)](https://doi.org/10.1515/geochr-2015-0114)
+    <br /> *<small>Peng, J., 2020. Analyzing statistical age models to
+    determine the equivalent dose and burial age using a Markov chain
+    Monte Carlo method. Geochronometria 0, 1–14. </small>*
     <hr/>
   - <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
     GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
