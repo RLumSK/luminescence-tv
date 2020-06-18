@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2020-06-08)
+(last update: 2020-06-18)
 
 
 
@@ -35,7 +35,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 36
+Total number of listed tools: 37
 
 ### Age calculation
 
@@ -125,8 +125,8 @@ Total number of listed tools: 36
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://chronomodel.com>
     | Source code: <https://github.com/Chronomodel/chronomodel>
     <hr/>
-  - <b><big>mcmcSAM</b></big>
-    ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
@@ -211,8 +211,8 @@ Total number of listed tools: 36
 
 ### Dosimetry
 
-  - <b><big>gamma</b></big>
-    ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>gamma</b></big> \[v0.2\] \[Fri, 12 Jun 2020 16:59:01
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />gamma is intended to process in-situ gamma-ray spectrometry
     measurements for luminescence dating. This package allows to import,
     inspect and (automatically) correct the energy scale of the
@@ -231,8 +231,8 @@ Total number of listed tools: 36
 
 ### ESR data analysis
 
-  - <b><big>ESR</b></big>
-    ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>ESR</b></big> \[Fri, 18 Jan 2019 12:31:54
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/ESR>
@@ -251,8 +251,8 @@ Total number of listed tools: 36
 
 ### Gamma-ray spectrometry
 
-  - <b><big>gammaSpec</b></big>
-    ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>gammaSpec</b></big> \[Fri, 18 Jan 2019 15:13:50
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to analyse gamma-ray spectra
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/gammaSpec>
     | Source code: <https://github.com/tzerk/gammaSpec>
@@ -277,8 +277,8 @@ Total number of listed tools: 36
     33, 35–42.
     <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
-  - <b><big>LDAC</b></big>
-    \[1\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+  - <b><big>LDAC</b></big> \[v1.0.1\] \[Tue, 24 Mar 2020 06:33:56
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />A Microsoft Excel Visual Basic for Application (VBA)-based
     package which can be used to assemble OSL age information and
     associated calculations. This platform applies statistical models to
@@ -396,8 +396,8 @@ Total number of listed tools: 36
 
 ### Modelling
 
-  - <b><big>KMS</b></big>
-    \[2018-07-11\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  - <b><big>KMS</b></big> \[Wed, 11 Jul 2018 01:41:12
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/KMS>
@@ -406,6 +406,23 @@ Total number of listed tools: 36
     kinetic models for quartz luminescence using the R program KMS.
     Radiation Measurements 86, 63–70. doi:
     <https://doi.org/10.1016/j.radmeas.2016.01.022></small>*
+    <hr/>
+  - <b><big>RLumCarlo</b></big>
+    \[0.1.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    <br />A collection of functions to simulate luminescence production
+    in dosimetric materials using Monte Carlo methods. Implemented are
+    models for delocalised transitions (e.g., Chen and McKeever (1997)
+    <doi:10.1142/2781>), localised transitions (e.g., Pagonis et
+    al. (2019) <doi:10.1016/j.jlumin.2018.11.024>) and tunnelling
+    transitions (Jain et al. (2012) <doi:10.1088/0953-8984/24/38/385402>
+    and Pagonis et al. (2019) <doi:10.1016/j.jlumin.2018.11.024>).
+    Supported stimulation methods are thermal luminescence (TL),
+    continuous-wave optically stimulated luminescence (CW-OSL),
+    linearly-modulated optically stimulated luminescence (LM-OSL),
+    linearly-modulated infrared stimulated luminescence (LM-IRSL), and
+    isothermal luminescence (ITL or ISO-TL).
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=RLumCarlo>
+    | Source code: <https://github.com/R-Lum/RLumCarlo>
     <hr/>
   - <b><big>RLumModel</b></big>
     \[0.2.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
