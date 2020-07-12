@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2020-06-18)
+(last update: 2020-07-12)
 
 
 
@@ -35,7 +35,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 37
+Total number of listed tools: 38
 
 ### Age calculation
 
@@ -65,6 +65,17 @@ Total number of listed tools: 37
     Dating-a Java Application for Dose Rate and Age Determination.
     Archaeometry 58, 347–352. doi:
     <https://doi.org/10.1111/arcm.12162></small>*
+    <hr/>
+  - <b><big>eM-Age</b></big> \[1\] \[Sun, 14 Jun 2020 16:19:44
+    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+    <br />Application for luminescence age calculation based on Dose
+    Rate and Age Calculator (DRAC) and Analyst
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/yomismovk/eM-Age-program>
+    | Source code: <https://github.com/yomismovk/eM-Age-program> <br />
+    *<small>Pérez-Garrido, C., 2020. eM-Age (excel Macro for Age
+    calculation), a new application for luminescence age calculation
+    based on Dose Rate and Age Calculator (DRAC) and Analyst. Ancient TL
+    38, 21–24.</small>*
     <hr/>
 
 ### Chronological modelling
@@ -356,10 +367,8 @@ Total number of listed tools: 37
     <https://doi.org/10.1016/j.softx.2016.06.001></small>*
     <hr/>
   - <b><big>TLdating</b></big>
-    \[0.1.3\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
-    <br />A series of function to make thermoluminescence dating using
-    the MAAD or the SAR protocol. This package completes the R package
-    “Luminescence.”
+    ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    <br />
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=TLdating>
     | Source code: <https://github.com/dstreble/Tldating> <br />
     *<small>Strebler, D., Burow, C., Brill, D., Brückner, H., 2017.
@@ -408,7 +417,7 @@ Total number of listed tools: 37
     <https://doi.org/10.1016/j.radmeas.2016.01.022></small>*
     <hr/>
   - <b><big>RLumCarlo</b></big>
-    \[0.1.5\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.1.6\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to simulate luminescence production
     in dosimetric materials using Monte Carlo methods. Implemented are
     models for delocalised transitions (e.g., Chen and McKeever (1997)
