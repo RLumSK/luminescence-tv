@@ -66,8 +66,8 @@ Total number of listed tools: 38
     Archaeometry 58, 347–352. doi:
     <https://doi.org/10.1111/arcm.12162></small>*
     <hr/>
--   <b><big>eM-Age</b></big> \[1\] \[Fri, 17 Jul 2020 06:14:48
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+-   <b><big>eM-Age</b></big>
+    \[1\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />Application for luminescence age calculation based on Dose
     Rate and Age Calculator (DRAC) and Analyst
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/yomismovk/eM-Age-program>
@@ -136,8 +136,8 @@ Total number of listed tools: 38
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://chronomodel.com>
     \| Source code: <https://github.com/Chronomodel/chronomodel>
     <hr/>
--   <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+-   <b><big>mcmcSAM</b></big>
+    ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_unknown.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Analyzing statistical age models for equivalent dose and
     burial age determination using a Markov Chain Monte Carlo method
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/mcmcSAM>
@@ -236,8 +236,8 @@ Total number of listed tools: 38
 
 ### ESR data analysis
 
--   <b><big>ESR</b></big> \[Fri, 18 Jan 2019 12:31:54
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+-   <b><big>ESR</b></big>
+    ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />R package ESR for plotting and analysing ESR spectra in dating
     applications
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/ESR>
@@ -256,8 +256,8 @@ Total number of listed tools: 38
 
 ### Gamma-ray spectrometry
 
--   <b><big>gammaSpec</b></big> \[Fri, 18 Jan 2019 15:13:50
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+-   <b><big>gammaSpec</b></big>
+    ![](images/osi_logo.png) <img width=79px src='images/badges_r_scripts.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to analyse gamma-ray spectra
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/tzerk/gammaSpec>
     \| Source code: <https://github.com/tzerk/gammaSpec>
@@ -282,8 +282,8 @@ Total number of listed tools: 38
     33, 35–42.
     <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Duller_p35-42.pdf></small>*
     <hr/>
--   <b><big>LDAC</b></big> \[v1.0.1\] \[Tue, 24 Mar 2020 06:33:56
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+-   <b><big>LDAC</b></big>
+    \[1\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />A Microsoft Excel Visual Basic for Application (VBA)-based
     package which can be used to assemble OSL age information and
     associated calculations. This platform applies statistical models to
@@ -362,7 +362,7 @@ Total number of listed tools: 38
     <https://doi.org/10.1016/j.softx.2016.06.001></small>*
     <hr/>
 -   <b><big>TLdating</b></big>
-    ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.1.3\] \[2016-08-31\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=TLdating>
     \| Source code: <https://github.com/dstreble/Tldating> <br />
@@ -400,8 +400,8 @@ Total number of listed tools: 38
 
 ### Modelling
 
--   <b><big>KMS</b></big> \[Wed, 11 Jul 2018 01:41:12
-    GMT\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+-   <b><big>KMS</b></big>
+    \[2018-07-11\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Collection of functions to simulate kinetic models for quartz
     luminescence production
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/pengjunUCAS/KMS>
