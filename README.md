@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2021-05-25)
+(last update: 2021-12-03)
 
 
 
@@ -35,7 +35,7 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 38
+Total number of listed tools: 39
 
 ### Age calculation
 
@@ -136,7 +136,7 @@ Total number of listed tools: 38
     \[2.0.18\] \[2019-02-01\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Chronological Modelling of Archaeological Data using Bayesian
     Statistics with an advanced graphical user interface
-    <br />![](https://img.shields.io/badge/-URL-red.svg) <https://chronomodel.com>
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://chronomodel.com>
     \| Source code: <https://github.com/Chronomodel/chronomodel>
     <hr/>
 -   <b><big>mcmcSAM</b></big> \[Mon, 07 Jan 2019 14:17:22
@@ -302,7 +302,7 @@ Total number of listed tools: 38
     Ancient TL 37, 21–40.</small>*
     <hr/>
 -   <b><big>Luminescence</b></big>
-    \[0.9.11\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.9.16\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of various R functions for the purpose of
     Luminescence dating data analysis. This includes, amongst others,
     data import, export, application of age models, curve deconvolution,
@@ -432,7 +432,7 @@ Total number of listed tools: 38
     \| Source code: <https://github.com/R-Lum/RLumCarlo>
     <hr/>
 -   <b><big>RLumModel</b></big>
-    \[0.2.8\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[0.2.9\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />A collection of functions to simulate luminescence signals in
     quartz and Al2O3 based on published models.
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=RLumModel>
@@ -442,6 +442,16 @@ Total number of listed tools: 38
     “RLumModel” an advanced research tool for simulating luminescence in
     quartz using R. Quaternary Geochronology 35, 88–100. doi:
     <https://doi.org/10.1016/j.quageo.2016.05.004></small>*
+    <hr/>
+-   <b><big>sandbox</b></big>
+    \[0.2.0\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    <br />A flexible framework for definition and application of
+    time/depth- based rules for sets of parameters for single grains
+    that can be used to create artificial sediment profiles. Such
+    profiles can be used for virtual sample preparation and synthetic,
+    for instance, luminescence measurements.
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=sandbox>
+    \| Source code: <https://github.com/coffeemuggler/sandbox>
     <hr/>
 
 ### Plotting
