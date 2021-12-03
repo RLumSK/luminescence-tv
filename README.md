@@ -377,7 +377,7 @@ Total number of listed tools: 39
 ### Luminescence data visualisation
 
 -   <b><big>Viewer</b></big>
-    \[4.4\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+    \[4.58\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
     <br />Proprietary software to visualise luminescence data recorded
     in BIN/BINX-files
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://www.fysik.dtu.dk/english/research/radphys/research/radiation-instruments/tl_osl_reader/software>
@@ -488,7 +488,7 @@ Total number of listed tools: 39
 ### Visualisation
 
 -   <b><big>DensityPlotter</b></big>
-    \[8.4\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[8.5\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Java application for Kernel Density Estimation plots
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://www.ucl.ac.uk/~ucfbpve/densityplotter/>
     <br /> *<small>Vermeesch, P., 2012. On the visualisation of detrital
@@ -496,7 +496,7 @@ Total number of listed tools: 39
     <https://doi.org/10.1016/j.chemgeo.2012.04.021></small>*
     <hr/>
 -   <b><big>RadialPlotter</b></big>
-    \[9.4\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+    \[9.5\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
     <br />Java software to create radial plots
     <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://www.ucl.ac.uk/~ucfbpve/radialplotter/>
     <br /> *<small>Vermeesch, P., 2009, RadialPlotter: a Java
