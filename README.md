@@ -235,7 +235,8 @@ Total number of listed tools: 40
 -   <b><big>OxGamma</b></big>
     <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) 
     <br />A MATLAB based application for the analysis of gamma-ray
-    spectra <br />![](https://img.shields.io/badge/-URL-red.svg) 
+    spectra
+    <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://drive.google.com/drive/folders/1caKSAQ45b1EHCM1pMybCzUQ19dIn4lOc?usp=sharing>
     [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.1016/j.radmeas.2022.106761&color=blue)](https://doi.org/10.1016/j.radmeas.2022.106761)
     <br /> *<small>Kumar, R., Frouin, M., Gazack, J., Schwenninger,
     J.-L., 2022. OxGamma: A MATLAB based application for the analysis of
