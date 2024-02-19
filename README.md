@@ -76,6 +76,17 @@ Total number of listed tools: 42
   calculation), a new application for luminescence age calculation based
   on Dose Rate and Age Calculator (DRAC) and Analyst. Ancient TL 38,
   21–24.</small>*
+- <b><big>μRate</b></big>
+<br/>Web application for the calculation of dose rates
+<br/> <img width=79px src='images/badges_web_service.svg'/> <img width=70px
+                                                                 src='images/badges_sta_stable.svg'/> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+<https://miu-rate.polsl.pl/miu-rate/>
+<br/>
+*<small>Tudyka, Konrad, Koruszowic, Michał, Osadnik, Rafał, Adamiec, Grzegorz, Moska, Piotr, Szymak, Agnieszka, Bluszcz,
+    Andrzej, Zhang, Junjie, Kolb, Thomas, and Poręba, Grzegorz (2022). μRate: An online dose rate calculator for trapped
+    charge dating. ARCHAEOMETRY, 65(2), 423-443. doi:
+    <https://doi.org/10.1111/arcm.12828></small>*
+<hr/>
   <hr/>
 
 ### Chronological modelling
