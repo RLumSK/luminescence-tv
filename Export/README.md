@@ -42,7 +42,7 @@ Total number of listed tools: 43
 - <b><big>AGE</b></big>
   \[14.11.09\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
   <br />Program for the calculation of luminescence ages estimates
-  <br />![](https://img.shields.io/badge/-URL-red.svg) <http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip>
+  <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip>
   <br />
   *<small><http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_p45-46.pdf></small>*
   <hr/>
@@ -172,7 +172,7 @@ Total number of listed tools: 43
   exchange and long-term preservation of luminescence data.
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://github.com/R-Lum/xlum>
   \| Source code: <https://github.com/R-Lum/xlum>
-  [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=%2010.5281/zenodo.7362364&color=blue)](https://doi.org/%2010.5281/zenodo.7362364)
+  [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.5281/zenodo.7362364&color=blue)](https://doi.org/10.5281/zenodo.7362364)
   <br /> *<small>Kreutzer, S., Burow, C., 2022. xlum: read, write, and
   convert XLUM Data (v0.1.0). Zenodo.
   <https://doi.org/10.5281/zenodo.7362364></small>*
@@ -181,10 +181,9 @@ Total number of listed tools: 43
   \[0.0.7\] ![](images/osi_logo.png) <img width=79px src='images/badges_python_package.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />Python package
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://pypi.org/project/xlum/>
-  \| Source code: <https://github.com/SteveGrehl/xlum-python>
-  [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=%20&color=blue)](https://doi.org/)
-  <br /> *<small>Grehl, S., 2022. xlum-pytong: Python importer for the
-  XLUM data exchange and archive format</small>*
+  \| Source code: <https://github.com/SteveGrehl/xlum-python> <br />
+  *<small>Grehl, S., 2022. xlum-pytong: Python importer for the XLUM
+  data exchange and archive format</small>*
   <hr/>
 
 ### Data mining
@@ -213,7 +212,7 @@ Total number of listed tools: 43
 ### Dose rate calculation
 
 - <b><big>μRate</b></big> \[
-  \] <img width=79px src='images/badges_web_service.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  2022.5.3\] <img width=79px src='images/badges_web_service.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />Online dose rate calculator for trapped charge dating
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://miu-rate.polsl.pl/miu-rate/>
   [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.1111/arcm.12828&color=blue)](https://doi.org/10.1111/arcm.12828)
