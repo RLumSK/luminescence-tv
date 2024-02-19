@@ -1,7 +1,7 @@
 Trapped Charge Data Analysis: Task View
 ================
 Sebastian Kreutzer
-(last update: 2024-01-18)
+(last update: 2024-02-19)
 
 
 
@@ -35,14 +35,14 @@ know via <https://github.com/RLumSK/luminescence-tv/issues>.
 
 # Mission tasks
 
-Total number of listed tools: 42
+Total number of listed tools: 43
 
 ### Age calculation
 
 - <b><big>AGE</b></big>
-  \[14/11/2009\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
+  \[14.11.09\] <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) 
   <br />Program for the calculation of luminescence ages estimates
-  <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip>
+  <br />![](https://img.shields.io/badge/-URL-red.svg) <http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_supplement.zip>
   <br />
   *<small><http://ancienttl.org/ATL_27-2_2009/ATL_27-2_Grun_p45-46.pdf></small>*
   <hr/>
@@ -132,7 +132,7 @@ Total number of listed tools: 42
   <https://doi.org/10.1016/j.quageo.2018.05.009></small>*
   <hr/>
 - <b><big>ChronoModel</b></big>
-  \[2.0.18\] \[01/02/2019\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  \[2.0.18\] \[01.02.19\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />Chronological Modelling of Archaeological Data using Bayesian
   Statistics with an advanced graphical user interface
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://chronomodel.com>
@@ -210,10 +210,23 @@ Total number of listed tools: 42
   <https://doi.org/10.5194/essd-10-2123-2018></small>*
   <hr/>
 
+### Dose rate calculation
+
+- <b><big>μRate</b></big> \[
+  \] <img width=79px src='images/badges_web_service.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  <br />Online dose rate calculator for trapped charge dating
+  <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://miu-rate.polsl.pl/miu-rate/>
+  [![](https://img.shields.io/static/v1.svg?style=flat&label=DOI&message=10.1111/arcm.12828&color=blue)](https://doi.org/10.1111/arcm.12828)
+  <br /> *<small>Tudyka, K., Koruszowic, M., Osadnik, R., Adamiec, G.,
+  Moska, P., Szymak, A., Bluszcz, A., Zhang, J., Kolb, T., Poręba,
+  G., 2022. μRate: An online dose rate calculator for trapped charge
+  dating. Archaeometry, 65(2), 423-443.</small>*
+  <hr/>
+
 ### Dose rate modelling
 
 - <b><big>DosiVox</b></big>
-  \[03/12/2018\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  \[03.12.18\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_stable.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />A Geant 4-based software for dosimetry simulations relevant to
   luminescence and ESR dating techniques
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <http://www.iramat-crp2a.cnrs.fr/spip/spip.php?article144&lang=fr>
@@ -223,7 +236,7 @@ Total number of listed tools: 42
   <http://ancienttl.org/ATL_33-1_2015/ATL_33-1_Martin_p1-10.pdf></small>*
   <hr/>
 - <b><big>DosiVox2D</b></big>
-  \[03/12/2018\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  \[03.12.18\] ![](images/osi_logo.png) <img width=79px src='images/badges_application.svg' /> <img width=70px src='images/badges_sta_devel.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />A Geant 4-based software for dosimetry simulations relevant to
   luminescence and ESR dating techniques; simplified version in
   comparison to DosiVox
@@ -388,7 +401,7 @@ Total number of listed tools: 42
   <https://doi.org/10.1016/j.softx.2016.06.001></small>*
   <hr/>
 - <b><big>TLdating</b></big>
-  \[0.1.3\] \[31/08/2016\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  \[0.1.3\] \[31.08.16\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />
   <br />![](https://img.shields.io/badge/-URL-lightgrey.svg) <https://CRAN.R-project.org/package=TLdating>
   \| Source code: <https://github.com/dstreble/Tldating> <br />
@@ -498,7 +511,7 @@ Total number of listed tools: 42
 ### Teaching
 
 - <b><big>LumReader</b></big>
-  \[0.1.0\] \[27/01/2017\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
+  \[0.1.0\] \[27.01.17\] ![](images/osi_logo.png) <img width=79px src='images/badges_r_package.svg' /> <img width=70px src='images/badges_sta_ancient.svg' /> ![](https://img.shields.io/badge/-WIN-lightgrey.svg) ![](https://img.shields.io/badge/-MAC-lightgrey.svg) ![](https://img.shields.io/badge/-LIN-lightgrey.svg) 
   <br />A series of functions to estimate the detection windows of a
   luminescence reader based on the filters and the photomultiplier (PMT)
   selected. These functions also allow to simulate a luminescence
